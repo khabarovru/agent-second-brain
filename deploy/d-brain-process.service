@@ -1,0 +1,10 @@
+[Unit]
+Description=d-brain Daily Processing
+
+[Service]
+Type=oneshot
+User=khabarovru
+WorkingDirectory=/home/khabarovru/.openclaw/workspace/skills/agent-second-brain
+ExecStart=/home/khabarovru/.openclaw/workspace/skills/agent-second-brain/scripts/process.sh
+Environment=PYTHONUNBUFFERED=1
+EnvironmentFile=/home/khabarovru/.openclaw/workspace/skills/agent-second-brain/.env
