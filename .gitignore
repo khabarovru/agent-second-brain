@@ -26,6 +26,10 @@ node_modules/
 Thumbs.db
 
 # Vault personal data (never commit these)
+# Новая структура (2026-03-19): vault → ~/.openclaw/workspace/vault
+# Здесь vault/ больше НЕ используется (старая структура)
+# Правила для нового vault см. в ~/.openclaw/workspace/vault/.gitignore
+
 vault/daily/
 vault/contacts/
 vault/finances/
@@ -36,3 +40,6 @@ vault/business/
 vault/projects/
 vault/thoughts/
 vault/MEMORY.md
+
+# Также игнорируем старый vault если он остался
+vault/

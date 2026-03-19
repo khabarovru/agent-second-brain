@@ -19,7 +19,7 @@ class Settings(BaseSettings):
     deepgram_api_key: str = Field(description="Deepgram API key for transcription")
     todoist_api_key: str = Field(default="", description="Todoist API key for tasks")
     vault_path: Path = Field(
-        default=Path("./vault"),
+        default=Path.home() / ".openclaw/workspace/vault",
         description="Path to Obsidian vault directory",
     )
     allowed_user_ids: list[int] = Field(
@@ -33,8 +33,23 @@ class Settings(BaseSettings):
 
     @property
     def daily_path(self) -> Path:
-        """Path to daily notes directory."""
-        return self.vault_path / "daily"
+        """Path to daily notes directory (80 Ежедневные)."""
+        return self.vault_path / "80 Ежедневные"
+
+    @property
+    def weekly_path(self) -> Path:
+        """Path to weekly summaries directory (85 Сводки)."""
+        return self.vault_path / "85 Сводки"
+
+    @property
+    def tasks_path(self) -> Path:
+        """Path to tasks directory (50 Задачи)."""
+        return self.vault_path / "50 Задачи"
+
+    @property
+    def goals_path(self) -> Path:
+        """Path to goals directory (60 Цели)."""
+        return self.vault_path / "60 Цели"
 
     @property
     def attachments_path(self) -> Path:
@@ -45,6 +60,11 @@ class Settings(BaseSettings):
     def thoughts_path(self) -> Path:
         """Path to thoughts directory."""
         return self.vault_path / "thoughts"
+
+    @property
+    def skills_path(self) -> Path:
+        """Path to Skills directory in vault (99 _Сервис/Skills)."""
+        return self.vault_path / "99 _Сервис" / "Skills"
 
 
 def get_settings() -> Settings:

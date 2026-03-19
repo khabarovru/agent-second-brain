@@ -28,14 +28,14 @@ class ClaudeProcessor:
         NOTE: @vault/ references don't work in --print mode,
         so we must include skill content directly in the prompt.
         """
-        skill_path = self.vault_path / ".claude/skills/dbrain-processor/SKILL.md"
+        skill_path = self.vault_path / "99 _Сервис" / "Skills" / "dbrain-processor" / "SKILL.md"
         if skill_path.exists():
             return skill_path.read_text()
         return ""
 
     def _load_todoist_reference(self) -> str:
         """Load Todoist reference for inclusion in prompt."""
-        ref_path = self.vault_path / ".claude/skills/dbrain-processor/references/todoist.md"
+        ref_path = self.vault_path / "99 _Сервис" / "Skills" / "dbrain-processor" / "references" / "todoist.md"
         if ref_path.exists():
             return ref_path.read_text()
         return ""
@@ -88,11 +88,11 @@ class ClaudeProcessor:
         return text
 
     def _save_weekly_summary(self, report_html: str, week_date: date) -> Path:
-        """Save weekly summary to vault/summaries/YYYY-WXX-summary.md."""
+        """Save weekly summary to 85 Сводки/YYYY-WXX-summary.md."""
         # Calculate ISO week number
         year, week, _ = week_date.isocalendar()
         filename = f"{year}-W{week:02d}-summary.md"
-        summary_path = self.vault_path / "summaries" / filename
+        summary_path = self.vault_path / "85 Сводки" / filename
 
         # Convert HTML to Markdown for Obsidian
         content = self._html_to_markdown(report_html)
@@ -132,10 +132,10 @@ week: {year}-W{week:02d}
         """
         logger.info("Running goal-aligner check...")
 
-        prompt = """Проверь alignment между активными задачами в Todoist и целями из vault/goals/*.
+        prompt = """Проверь alignment между активными задачами в Todoist и целями из 60 Цели/*.
 
 WORKFLOW:
-1. Прочитай все цели: goals/0-vision-3y.md, goals/1-yearly-YYYY.md, goals/2-monthly.md, goals/3-weekly.md
+1. Прочитай все цели: 60 Цели/0-vision-3y.md, 60 Цели/1-yearly-YYYY.md, 60 Цели/2-monthly.md, 60 Цели/3-weekly.md
 2. Получи активные задачи через mcp__todoist__find-tasks (limit: 50)
 3. Классифицируй каждую задачу:
    - ✅ Aligned — явно связана с целью
@@ -420,8 +420,8 @@ CRITICAL MCP RULE:
 - Если tool вернул ошибку — покажи ТОЧНУЮ ошибку в отчёте
 
 WORKFLOW:
-1. Собери данные за неделю (daily файлы в vault/daily/, completed tasks через MCP)
-2. Проанализируй прогресс по целям (goals/3-weekly.md)
+1. Собери данные за неделю (daily файлы в 80 Ежедневные/, completed tasks через MCP)
+2. Проанализируй прогресс по целям (60 Цели/3-weekly.md)
 3. Определи победы и вызовы
 4. Сгенерируй HTML отчёт
 

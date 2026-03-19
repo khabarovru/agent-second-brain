@@ -9,7 +9,7 @@ class VaultStorage:
 
     def __init__(self, vault_path: Path) -> None:
         self.vault_path = Path(vault_path)
-        self.daily_path = self.vault_path / "daily"
+        self.daily_path = self.vault_path / "80 Ежедневные"
         self.attachments_path = self.vault_path / "attachments"
 
     def _ensure_dirs(self) -> None:
