@@ -19,8 +19,8 @@ class Settings(BaseSettings):
     deepgram_api_key: str = Field(description="Deepgram API key for transcription")
     todoist_api_key: str = Field(default="", description="Todoist API key for tasks")
     vault_path: Path = Field(
-        default=Path.home() / ".openclaw/workspace/vault",
-        description="Path to Obsidian vault directory",
+        default=Path("./vault"),
+        description="Path to Obsidian vault directory (relative to agent-second-brain root)",
     )
     allowed_user_ids: list[int] = Field(
         default_factory=list,
