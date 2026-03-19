@@ -5,7 +5,7 @@ set -e
 export PATH="$HOME/.local/bin:$HOME/.nvm/versions/node/$(ls "$HOME/.nvm/versions/node/" 2>/dev/null | tail -1)/bin:/usr/local/bin:/usr/bin:/bin:$PATH"
 
 # Paths — auto-detect from script location
-PROJECT_DIR="$(cd "$(dirname "$0")/.." && pwd)"
+PROJECT_DIR="/home/khabarovru/.openclaw/workspace/skills/agent-second-brain"
 VAULT_DIR="$PROJECT_DIR/vault"
 ENV_FILE="$PROJECT_DIR/.env"
 
@@ -56,7 +56,7 @@ fi
 # Check handoff exists
 if [ ! -f "$HANDOFF_FILE" ]; then
     echo "ORIENT: handoff.md not found — creating stub"
-    mkdir -m "$VAULT_DIR/.session"
+    mkdir -p "$VAULT_DIR/.session"
     echo -e "---\nupdated: $(date -Iseconds)\n---\n\n## Last Session\n(none)\n\n## Observations" > "$HANDOFF_FILE"
 fi
 
@@ -82,7 +82,7 @@ export MAX_MCP_OUTPUT_TOKENS=50000
 # Each phase = fresh openclaw context for better quality.
 
 SESSION_DIR="$VAULT_DIR/.session"
-mkdir -m "$SESSION_DIR"
+mkdir -p "$SESSION_DIR"
 CAPTURE_FILE="$SESSION_DIR/capture.json"
 EXECUTE_FILE="$SESSION_DIR/execute.json"
 
@@ -99,7 +99,7 @@ cd "$VAULT_DIR"
 
 # ── Phase 1: CAPTURE ──
 echo "=== Phase 1: CAPTURE ==="
-CAPTURE=$(openclaw agent --agent main --dangerously-skip-permissions \
+CAPTURE=$(openclaw agent \
     -m "Today is $TODAY. Read /home/khabarovru/.openclaw/skills/dbrain-processor/phases/capture.md and execute Phase 1.
 Read daily/$TODAY.md, goals/3-weekly.md, goals/2-monthly.md, goals/$YEARLY_GOALS_NAME.
 Classify each entry. Return ONLY JSON." 2>&1) || true
@@ -123,16 +123,16 @@ echo "Capture saved: $(wc -c < "$CAPTURE_FILE") bytes"
 if grep -q '"error"' "$CAPTURE_FILE"; then
     echo "WARN: Capture phase had issues, falling back to monolith mode"
     # Fallback to monolith processing
-    REPORT=$(openclaw agent --agent main --dangerously-skip-permissions \
-        --mcp-config "$PROJECT_DIR/mcp-config.json" \
+    REPORT=$(openclaw agent --agent main  \
+         "$PROJECT_DIR/mcp-config.json" \
         -m "Today is $TODAY. Execute daily processing according to dbrain-processor skill.
 $MCP_PROMPT" \
         2>&1) || true
 else
     # ── Phase 2: EXECUTE ──
     echo "=== Phase 2: EXECUTE ==="
-    EXECUTE=$(openclaw agent --agent main --dangerously-skip-permissions \
-    --mcp-config "$PROJECT_DIR/mcp-config.json" \
+    EXECUTE=$(openclaw agent --agent main  \
+     "$PROJECT_DIR/mcp-config.json" \
     -m "Today is $TODAY. Read /home/khabarovru/.openclaw/skills/dbrain-processor/phases/execute.md and execute Phase 2.
 Read .session/capture.json for input data.
 Read business/_index.md and projects/_index.md for context.
@@ -154,7 +154,7 @@ sys.stdout.write('{\"error\": \"failed to parse execute output\"}')
 
     # ── Phase 3: REFLECT ──
     echo "=== Phase 3: REFLECT ==="
-    REPORT=$(openclaw agent --agent main --dangerously-skip-permissions \
+    REPORT=$(openclaw agent --agent main  \
     -m "Today is $TODAY. Read /home/khabarovru/.openclaw/skills/dbrain-processor/phases/reflect.md and execute Phase 3.
 Read .session/capture.json and .session/execute.json for input data.
 Read MEMORY.md, .session/handoff.md, .graph/health-history.json.

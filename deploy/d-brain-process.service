@@ -7,4 +7,5 @@ User=khabarovru
 WorkingDirectory=/home/khabarovru/.openclaw/workspace/skills/agent-second-brain
 ExecStart=/home/khabarovru/.openclaw/workspace/skills/agent-second-brain/scripts/process.sh
 Environment=PYTHONUNBUFFERED=1
+Environment="PATH=/home/khabarovru/.npm-global/bin:/usr/local/bin:/usr/bin:/bin"
 EnvironmentFile=/home/khabarovru/.openclaw/workspace/skills/agent-second-brain/.env
