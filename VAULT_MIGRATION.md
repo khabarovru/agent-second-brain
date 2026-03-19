@@ -18,17 +18,19 @@ agent-second-brain/
 
 ### ✅ Новая структура:
 ```
-~/.openclaw/workspace/
-├── vault/              # Глобальный vault (ВНЕ репозитория agent-second-brain)
-│   ├── 80 Ежедневные/  # Daily notes
-│   ├── 60 Цели/        # Goals
-│   ├── 85 Сводки/      # Weekly summaries
+agent-second-brain/
+├── vault/              # Vault с новой нумерацией папок
+│   ├── 80 Ежедневные/  # Daily notes (вместо daily/)
+│   ├── 60 Цели/        # Goals (вместо goals/)
+│   ├── 85 Сводки/      # Weekly summaries (вместо summaries/)
 │   ├── 99 _Сервис/
-│   │   └── Skills/     # AgentSkills (dbrain-processor и др.)
+│   │   └── Skills/     # AgentSkills (вместо .claude/skills/)
 │   └── 00-95/          # Рабочие папки (Объекты, Проекты и т.д.)
-└── skills/agent-second-brain/
-    └── src/d_brain/    # Код бота (остался здесь)
+└── src/d_brain/        # Код бота
 ```
+
+**Vault теперь В РЕПОЗИТОРИИ,** но личные данные (содержимое 00-95 папок) игнорируются через `.gitignore`.  
+На GitHub коммитится только структура (.gitkeep) + служебные файлы (Skills, Scripts).
 
 ## 🎯 Зачем это нужно
 
@@ -62,22 +64,13 @@ vim .env
 # Укажи:
 TELEGRAM_BOT_TOKEN=your_token
 DEEPGRAM_API_KEY=your_key
-VAULT_PATH=/home/username/.openclaw/workspace/vault  # ← НОВЫЙ ПУТЬ
+VAULT_PATH=$PWD/vault  # ← Vault теперь в репозитории
 ```
 
-### 3. Создай vault (если ещё нет):
+### 3. Vault уже включён!
 
-**Вариант А: Склонируй готовый vault (рекомендуется):**
-```bash
-# TODO: Опубликовать vault-second-brain как отдельный репозиторий
-git clone https://github.com/khabarovru/vault-second-brain.git ~/.openclaw/workspace/vault
-```
-
-**Вариант Б: Создай пустой:**
-```bash
-mkdir -p ~/.openclaw/workspace/vault
-# Структура создастся автоматически при первом запуске бота
-```
+Vault теперь часть репозитория (папка `vault/`).  
+Структура с пустыми папками уже на месте, агенты тоже.
 
 ### 4. Запусти бота:
 ```bash
@@ -85,13 +78,20 @@ cd agent-second-brain
 .venv/bin/python -m d_brain
 ```
 
-## 🔗 Связь между репозиториями
+## 🔒 Безопасность на GitHub
 
-| Репозиторий | Содержимое | GitHub |
-|-------------|-----------|--------|
-| **agent-second-brain** | Код бота (Python) | Публичный |
-| **vault-second-brain** | Структура vault + Skills | Публичный (без личных данных) |
-| **Локальный vault** | Личные заметки + данные | НЕ на GitHub |
+Vault включён в репозиторий, но **личные данные НЕ коммитятся:**
+
+| Что | GitHub |
+|-----|--------|
+| Структура папок (.gitkeep) | ✅ Да |
+| Skills, Scripts, документация | ✅ Да |
+| Obsidian конфигурация | ✅ Да |
+| Личные заметки (00-95 папки) | ❌ Нет (игнорируются) |
+| MEMORY.md, USER.md и т.д. | ❌ Нет (игнорируются) |
+| .env, API ключи | ❌ Нет (игнорируются) |
+
+См. `vault/.gitignore` для деталей.
 
 ## 📄 Документация
 
