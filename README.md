@@ -15,6 +15,22 @@
 
 ---
 
+## 📂 Vault Structure (NEW)
+
+**Important:** Starting from v2.0 (2026-03-19), the vault is now stored separately from the bot code.
+
+- **Bot code:** `agent-second-brain/` (this repository)
+- **Vault:** `~/.openclaw/workspace/vault/` (see [vault-second-brain](https://github.com/khabarovru/vault-second-brain) — will be published soon)
+
+**Why the change?**
+- **Separation of code and data:** Bot code on GitHub, personal notes stay local
+- **Integration with work vault:** Unified structure for work notes + personal brain
+- **Flexibility:** Sync vault via Syncthing (Windows ↔ OpenClaw)
+
+See [VAULT_MIGRATION.md](VAULT_MIGRATION.md) for migration details.
+
+---
+
 ## The problem
 
 Every productivity system dies the same way. You set it up on a Sunday, use it for two weeks, then slowly stop because the overhead of maintaining it is more work than the work itself.
