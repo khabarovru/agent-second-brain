@@ -1,0 +1,65 @@
+# Syncthing ignore patterns для vault
+# Цель: Синхронизация заметок (ПК→Сервер) + Skills (Сервер→ПК)
+
+# =====ИГНОРИРОВАТЬ НА ОБЕИХ СТОРОНАХ=====
+
+# Git (только сервер работает с GitHub)
+.git/
+.gitignore
+
+# Временные файлы
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
+*.bak
+~$*
+
+# Obsidian workspace (персональный для каждого устройства)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/workspace.json.bak*
+.obsidian/cache/
+.obsidian/graph.json
+
+# Syncthing служебные
+.stfolder/
+.stversions/
+.stignore
+
+# Attachments могут быть большими — решить позже
+# attachments/
+
+# =====ЧТО СИНХРОНИЗИРУЕТСЯ=====
+
+# ✅ Заметки (00-95 папки):
+#    ПК → Сервер (Windows — мастер для рабочих заметок)
+#    Содержимое: .md файлы, вложенные папки, файлы проектов
+
+# ✅ Skills (99 _Сервис/):
+#    Сервер → ПК (сервер обновляет через Git/агенты)
+#    НО: на ПК может редактировать вручную → sendreceive (двусторонний)
+
+# ✅ Obsidian конфигурация (.obsidian/):
+#    Синхронизируется (плагины, темы, настройки)
+#    Кроме workspace.json (персональный)
+
+# ✅ Системные файлы:
+#    MEMORY.md, USER.md, SOUL.md, AGENTS.md, TOOLS.md, HEARTBEAT.md
+#    Синхронизируются (персональные данные, но нужны на обеих сторонах)
+
+# ✅ README.md, MIGRATION.md, GITHUB.md
+#    Синхронизируются (документация)
+
+# =====ПРИМЕЧАНИЯ=====
+# 
+# 1. Syncthing тип: sendreceive (двусторонний)
+#    - Конфликты разрешаются автоматически (создаётся .sync-conflict файл)
+#    - Если Skills конфликтует → вручную проверить .sync-conflict
+#
+# 2. Versioning: staggered (30 дней)
+#    - Старые версии файлов сохраняются в .stversions/
+#    - Можно откатить если что-то сломалось
+#
+# 3. Ignore Permissions: false
+#    - Синхронизировать права доступа (важно для скриптов)
