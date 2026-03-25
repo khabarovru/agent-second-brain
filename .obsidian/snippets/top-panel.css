@@ -1,0 +1,86 @@
+/* Обёртка плагина Note Toolbar */
+.top-panel {
+  background-color: transparent !important; /* Сделаем фон прозрачным */
+  border: none !important; /* Убираем все границы */
+  box-shadow: none !important; /* Убираем свечение у панели */
+  border-radius: 0.8rem;
+  font-family: 'Orbitron', sans-serif;
+  text-shadow: none; /* Убираем текстовое свечение */
+  backdrop-filter: blur(4px);
+  padding: 0.5rem;
+  height: auto; /* Возвращаем высоту панели к исходному значению */
+  outline: none; /* Убираем системные контуры */
+}
+
+/* Кнопки внутри тулбара */
+.top-panel li {
+  background: transparent !important; /* Сделаем фон кнопок прозрачным */
+  border: 2px solid rgb(135, 117, 225); /* Добавляем фиолетовый контур */
+  padding: 0.4rem 0.4rem; /* Сделал padding равным по вертикали и горизонтали => ближе к квадрату */
+  margin: 0.3rem 0;
+  border-radius: 0.4rem;
+  transition: all 0.2s ease-in-out;
+  box-shadow: none; /* Убираем свечение у кнопок */
+  cursor: pointer;
+  color: #ff00cc; /* Основной цвет текста и иконок в стиле киберпанк */
+}
+
+/* Кнопки в тёмной теме */
+@media (prefers-color-scheme: dark) {
+  .top-panel li {
+    color: #ff00cc; /* Яркий цвет для иконок и текста в темной теме */
+  }
+  .top-panel li:hover {
+    background: #1f1f2f; /* Не меняем ховер */
+  }
+}
+
+/* Кнопки в светлой теме */
+@media (prefers-color-scheme: light) {
+  .top-panel li {
+    color: #ff00cc; /* Яркий цвет для иконок и текста в светлой теме */
+  }
+  .top-panel li:hover {
+    background: #f0f0f0; /* Нейтральный фон при наведении */
+  }
+}
+
+/* Активный файл */
+.top-panel li[data-active-file] {
+  border: 2px solid #00ffee; /* Яркая линия для активного файла */
+  background-color: #111122;
+  box-shadow: none; /* Убираем свечение у активного файла */
+}
+
+.top-panel li[data-active-file] span.external-link {
+  color: #ff00cc;
+  text-decoration: underline;
+}
+
+/* Неоновая линия при фокусе */
+.top-panel li:focus-within {
+  outline: none !important; /* Убираем фокусный контур */
+}
+
+/* Убираем фильтры и дополнительные эффекты для иконок */
+.top-panel li svg {
+  filter: none !important; /* Убираем все фильтры */
+  color: inherit !important; /* Возвращаем стандартный цвет иконок */
+}
+
+/* Кнопки в активном состоянии */
+.top-panel li[data-active-file] svg {
+  filter: none !important; /* Убираем фильтры с иконок в активном состоянии */
+  color: inherit !important; /* Возвращаем стандартный цвет для активных иконок */
+}
+
+/* Исправление для двух кнопок */
+.top-panel li svg {
+  color: inherit !important; /* Восстанавливаем стандартный цвет для всех иконок */
+}
+
+/* Для двух кнопок с неправильным цветом */
+.top-panel li:nth-child(1) svg, 
+.top-panel li:nth-child(2) svg {
+  color: inherit !important; /* Применяем стандартный цвет для этих иконок */
+}

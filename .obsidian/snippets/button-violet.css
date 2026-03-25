@@ -1,0 +1,50 @@
+.callout[data-callout="note-toolbar"] {
+  &[data-callout-metadata*=button-violet] a,
+  &[data-callout-metadata*=button-violet] .internal-link,
+  &[data-callout-metadata*=button-violet] .external-link {
+    background: linear-gradient(to right, #6927eb, #a986fb) !important; /* от темного к светлому */
+    color: white !important;
+    border-radius: 0.4rem;
+    padding: 0.5rem 0.8rem;
+    border: none;
+    box-shadow: 0 0 6px #a986fb;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+    line-height: 1.2;
+
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+
+    transition: background 0.3s ease-in-out, box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+    transform-origin: center;
+  }
+
+  &[data-callout-metadata*=button-violet] a span,
+  &[data-callout-metadata*=button-violet] .internal-link span,
+  &[data-callout-metadata*=button-violet] .external-link span {
+    transition: transform 0.3s ease-in-out;
+    display: inline-block;
+  }
+
+  &[data-callout-metadata*=button-violet] a:hover,
+  &[data-callout-metadata*=button-violet] .internal-link:hover,
+  &[data-callout-metadata*=button-violet] .external-link:hover {
+    background: linear-gradient(to right, #a986fb, #6927eb) !important; /* при ховере наоборот — от светлого к темному */
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(8px);
+    box-shadow: 0 0 4px #a986fb, 0 0 6px #6927eb;
+    transform: scale(1.05);
+  }
+
+  &[data-callout-metadata*=button-violet] a:hover span,
+  &[data-callout-metadata*=button-violet] .internal-link:hover span,
+  &[data-callout-metadata*=button-violet] .external-link:hover span {
+    transform: scale(1.05);
+  }
+}

@@ -1,0 +1,27 @@
+#custom-clock {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    color: var(--text-normal);
+    font-size: 2rem;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 0px 20px rgba(0, 255, 255, 0.3);
+}
+
+#time {
+    display: block;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+#date {
+    font-size: 1.2rem;
+    opacity: 0.8;
+}

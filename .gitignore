@@ -1,0 +1,173 @@
+# ============================================
+# .gitignore для Obsidian vault (публичный GitHub)
+# ЦЕЛЬ: Защита личных данных, заметок, файлов
+# ============================================
+
+# ===== КРИТИЧНО: ЛИЧНЫЕ ДАННЫЕ =====
+# Эти папки НИКОГДА не коммитить в публичный GitHub
+
+# Все заметки и содержимое папок
+# Игнорируем всё внутри, но сохраняем только .gitkeep
+
+00 Входящие/*
+!00 Входящие/.gitkeep
+!00 Входящие/01 Web Clipper/
+00 Входящие/01 Web Clipper/*
+!00 Входящие/01 Web Clipper/.gitkeep
+
+10 Заметки/*
+!10 Заметки/.gitkeep
+
+20 Ежедневник/*
+!20 Ежедневник/.gitkeep
+
+30 Проекты/*
+!30 Проекты/.gitkeep
+
+40 Объекты/*
+!40 Объекты/.gitkeep
+
+50 Задачи/*
+!50 Задачи/.gitkeep
+
+60 Цели/*
+!60 Цели/.gitkeep
+
+70 Люди/*
+!70 Люди/.gitkeep
+
+80 Ежедневные/*
+!80 Ежедневные/.gitkeep
+
+85 Сводки/*
+!85 Сводки/.gitkeep
+
+90 Карты знаний/*
+!90 Карты знаний/.gitkeep
+
+95 Файлы/*
+!95 Файлы/.gitkeep
+
+# Системные файлы с личной информацией
+MEMORY.md
+USER.md
+IDENTITY.md
+SOUL.md
+AGENTS.md
+TOOLS.md
+HEARTBEAT.md
+
+# Временные файлы Obsidian
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/workspace.json.bak*
+.obsidian/cache
+.obsidian/graph.json
+.obsidian/plugins/*/data.json
+
+# Служебные папки
+.session/
+.sessions/
+.graph/
+.openclaw/
+attachments/
+thoughts/
+blog/
+MOC/
+
+# ===== РАЗРЕШЕНО: Служебные файлы =====
+# Эти файлы можно коммитить (структура + скрипты)
+
+# Obsidian конфигурация (плагины, темы, сниппеты)
+!.obsidian/
+!.obsidian/plugins/
+!.obsidian/themes/
+!.obsidian/snippets/
+!.obsidian/*.json
+!.obsidian/icons/
+
+# НО исключаем приватные данные плагинов
+.obsidian/plugins/*/data.json
+.obsidian/plugins/obsidian-annotator/
+.obsidian/plugins/calendar/
+.obsidian/plugins/periodic-notes/
+
+# 99 _Сервис (скрипты, шаблоны, скиллы)
+!99 _Сервис/
+!99 _Сервис/**
+
+# README и документация
+!README.md
+!MIGRATION.md
+!LICENSE
+
+# ===== СЕКРЕТЫ =====
+# API ключи, токены, пароли
+
+*.env
+*.env.*
+.env.local
+.env.*.local
+secrets/
+*.key
+*.pem
+*.crt
+*.p12
+
+# Конфигурация MCP (может содержать API ключи)
+mcp-config.json
+
+# ===== SYNCTHING =====
+.stversions/
+.stfolder/
+.stfolder.removed-*/
+.stignore
+.trash/
+
+# ===== СТАНДАРТНЫЕ ИСКЛЮЧЕНИЯ =====
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.Python
+*.egg-info/
+dist/
+build/
+
+# Node.js
+node_modules/
+package-lock.json
+yarn.lock
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Временные файлы
+*.tmp
+*.bak
+*.backup
+~$*
+
+# ===== ИСКЛЮЧЕНИЯ ДЛЯ ПРИМЕРОВ =====
+# Если нужно добавить пример шаблона/скрипта
+# !99 _Сервис/Шаблоны/example-template.md
+
+# OpenClaw workspace (агент создает AGENTS.md, USER.md и т.д.)
+99 _Сервис/OpenClaw/*
+!99 _Сервис/OpenClaw/.gitkeep

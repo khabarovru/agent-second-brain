@@ -1,0 +1,183 @@
+{
+  "main": {
+    "id": "a045bc004d1c7dcf",
+    "type": "split",
+    "children": [
+      {
+        "id": "94cc0ec9de6913be",
+        "type": "leaf",
+        "dimension": 59.42307692307693,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Боги, религии, мифология/Царства/СПС-ники.md",
+            "mode": "source",
+            "source": false
+          }
+        },
+        "group": "c7fe9bdb067e78da"
+      },
+      {
+        "id": "ad1e7ebd48d2eb1c",
+        "type": "leaf",
+        "dimension": 40.57692307692308,
+        "state": {
+          "type": "localgraph",
+          "state": {
+            "file": "Боги, религии, мифология/Царства/СПС-ники.md",
+            "options": {
+              "collapse-filter": true,
+              "search": "",
+              "localJumps": 1,
+              "localBacklinks": true,
+              "localForelinks": true,
+              "localInterlinks": false,
+              "showTags": false,
+              "showAttachments": false,
+              "hideUnresolved": false,
+              "collapse-color-groups": true,
+              "colorGroups": [],
+              "collapse-display": true,
+              "showArrow": false,
+              "textFadeMultiplier": 0,
+              "nodeSizeMultiplier": 1,
+              "lineSizeMultiplier": 1,
+              "collapse-forces": false,
+              "centerStrength": 0.784911882922807,
+              "repelStrength": 7.2554879934041,
+              "linkStrength": 1,
+              "linkDistance": 250,
+              "scale": 1,
+              "close": true
+            }
+          }
+        },
+        "group": "c7fe9bdb067e78da"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "775256b39d3aeb0a",
+    "type": "split",
+    "children": [
+      {
+        "id": "5b4c77f147f3fe96",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9e8df180914c1ce7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "efa51913b08c5eb5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b393a7625d24bc0f",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "53526756bd4ec1fc",
+    "type": "split",
+    "children": [
+      {
+        "id": "59bed6a6943c6f6d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1462d63a78bc5283",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Боги, религии, мифология/Царства/СПС-ники.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6abdd875043c74b6",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Боги, религии, мифология/Царства/СПС-ники.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d24ff2d74559690b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "10b1dc21833d0a9f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Боги, религии, мифология/Царства/СПС-ники.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "94cc0ec9de6913be",
+  "lastOpenFiles": [
+    "Боги, религии, мифология/Царства/СПС.md",
+    "Боги, религии, мифология/Царства/Служба Плетущих Судьбы.md",
+    "Боги, религии, мифология/Царства/Поток Ра.md",
+    "Боги, религии, мифология/Царства/Карма или Карима (Богиня Судьбы и Рока).md",
+    "Боги, религии, мифология/Царства/СПС-ники.md",
+    "Боги, религии, мифология/Царства/Судьи, плетущие судьбы.md",
+    "Боги, религии, мифология/Царства/Чарима (Судебное Царство).md",
+    "Боги, религии, мифология/Царства/Спасибо.md",
+    "Боги, религии, мифология/Царства/Стражи Судей.md",
+    "Мои Книги/Аскель с Андора/Персонажи/Уберг.md"
+  ]
+}

@@ -1,0 +1,28 @@
+/* Полностью скрываем PDF фрейм И контейнер */
+.pdf-embed,
+.internal-embed.is-pdf,
+.pdf-embed .pdf-container,
+.internal-embed.is-pdf .pdf-container {
+  display: none !important;
+  height: 0 !important;
+  min-height: 0 !important;
+}
+
+/* Показываем название файла ПОСТОЯННО (не только при hover) */
+.internal-embed.is-pdf .internal-embed-title,
+.pdf-embed-title {
+  display: block !important;
+  color: var(--text-normal) !important;
+  background: rgba(40,42,47,0.7) !important;
+  padding: 4px 8px !important;
+  border-radius: 4px !important;
+  border: 1px solid var(--background-modifier-border) !important;
+  margin: 4px 0 !important;
+  font-size: 0.9em !important;
+}
+
+.internal-embed.is-pdf:hover .internal-embed-title,
+.pdf-embed-title:hover {
+  background: rgba(60,62,67,0.9) !important;
+  color: var(--text-accent) !important;
+}

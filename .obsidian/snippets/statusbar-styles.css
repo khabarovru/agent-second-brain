@@ -1,0 +1,63 @@
+/* Основной стиль статус-бара */
+.status-bar {
+    font-family: "Orbitron", sans-serif;
+    font-size: 12px;
+    color: white;
+    background: rgba(0, 0, 0, 0.5); /* Полупрозрачный чёрный фон */
+    backdrop-filter: blur(8px);
+    padding: 5px 20px;
+    position: fixed;
+    left: 50%; /* Центрируем */
+    bottom: 0;
+    width: 40%; /* Уменьшена ширина до 40% */
+    transform: translateX(-50%); /* Выравниваем по центру */
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 15px 15px 0 0; /* Скругляем верхние углы */
+    transition: all 0.3s ease-in-out;
+
+    /* Мягкое свечение */
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.1), 0 0 12px rgba(255, 0, 255, 0.1);
+    animation: glowAnimation 2s ease-in-out infinite;
+}
+
+/* Элементы в статус-баре */
+.status-bar span,
+.status-bar .status-item {
+    color: white;
+    text-shadow: 0 0 4px rgba(0, 255, 255, 0.3), 0 0 8px rgba(255, 0, 255, 0.3); /* Голубое + фиолетово-розовое свечение */
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Фиксация кнопок в статус-баре */
+.status-bar .status-item {
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.6);
+    border: 1px solid #ff00ff;
+    width: 120px; /* Фиксированная ширина для кнопок */
+    flex-shrink: 0; /* Запрещаем уменьшение */
+}
+
+/* Анимация плавного свечения */
+@keyframes glowAnimation {
+    0% {
+        box-shadow: 0 0 10px rgba(0, 255, 255, 0.1), 0 0 12px rgba(255, 0, 255, 0.1);
+    }
+    50% {
+        box-shadow: 0 0 12px rgba(0, 255, 255, 0.2), 0 0 14px rgba(255, 0, 255, 0.2);
+    }
+    100% {
+        box-shadow: 0 0 10px rgba(0, 255, 255, 0.1), 0 0 12px rgba(255, 0, 255, 0.1);
+    }
+}
+
+/* Переключатель для скрытия статус-бара */
+body.hide-status-bar .status-bar {
+    display: none;
+}

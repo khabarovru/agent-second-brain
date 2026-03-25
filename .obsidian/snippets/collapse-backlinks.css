@@ -1,0 +1,12 @@
+/* Пробуем разные селекторы для сворачивания */
+.embedded-backlinks .tree-item-children,
+.backlink-pane .tree-item-children,
+[data-type="backlink"] .tree-item-children {
+    display: none !important;
+}
+
+/* Всегда показываем счетчики */
+.tree-item-flair {
+    opacity: 1 !important;
+    visibility: visible !important;
+}
