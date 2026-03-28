@@ -28,5 +28,7 @@
   "cmenu-plugin",
   "templater-obsidian",
   "obsidian-tasks-plugin",
-  "obsidian-task-collector"
+  "obsidian-task-collector",
+  "obsidian-natural-link",
+  "natural-link"
 ]
