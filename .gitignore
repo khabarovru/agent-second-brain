@@ -171,3 +171,20 @@ yarn-error.log*
 # OpenClaw workspace (агент создает AGENTS.md, USER.md и т.д.)
 99 _Сервис/OpenClaw/*
 !99 _Сервис/OpenClaw/.gitkeep
+
+# ===== OpenClaw Agent Config (добавлено автоматически) =====
+# Личные конфиги агентов - не коммитить
+99 Сервис/Agent Config/*
+!99 Сервис/Agent Config/.gitkeep
+99 Сервис/Agents/**/MEMORY.md
+99 Сервис/Agents/**/USER.md
+99 Сервис/Agents/**/SOUL.md
+99 Сервис/Agents/**/IDENTITY.md
+99 Сервис/Agents/**/AGENTS.md
+99 Сервис/Agents/**/TOOLS.md
+99 Сервис/Agents/**/HEARTBEAT.md
+99 Сервис/Agents/**/BOOTSTRAP.md
+99 Сервис/Agents/**/COMMANDS.md
+99 Сервис/Agents/**/CRON-SETUP.md
+99 Сервис/Agents/**/SYSTEM.md
+99 Сервис/Agents/**/EXAMPLES.md
