@@ -294,7 +294,8 @@ openclaw gateway restart
 
 Общий буфер для передачи данных между агентами **без approval prompts**.
 
-**Путь:** `/home/node/.openclaw/agents/second-brain/vault/99 Сервис/OpenClaw/scratchpad/`
+**Личная папка:** `/home/node/.openclaw/agents/second-brain/vault/99 Сервис/OpenClaw/scratchpad/main/`
+**Общий scratchpad:** `/home/node/.openclaw/agents/second-brain/vault/99 Сервис/OpenClaw/scratchpad/`
 
 ### Правила
 - Пиши промежуточные результаты, JSON, списки — субагенты читают свободно
