@@ -34,7 +34,7 @@ tier: active
 ```bash
 # На GitHub.com:
 # 1. New repository
-# 2. Имя: vault-second-brain
+# 2. Имя: vault-seconSecond Brain
 # 3. Public
 # 4. НЕ добавляй README (уже есть локально)
 ```
@@ -60,7 +60,7 @@ git branch -M main  # переименовать master → main (стандар
 
 ```bash
 # Замени YOUR_USERNAME на свой GitHub username
-git remote add origin https://github.com/YOUR_USERNAME/vault-second-brain.git
+git remote add origin https://github.com/YOUR_USERNAME/vault-seconSecond Brain.git
 
 # Stage все файлы (личные данные уже игнорируются)
 git add -A
@@ -74,7 +74,7 @@ git push -u origin main
 
 ### 5. Проверь на GitHub
 
-Открой: `https://github.com/YOUR_USERNAME/vault-second-brain`
+Открой: `https://github.com/YOUR_USERNAME/vault-seconSecond Brain`
 
 **Должно быть:**
 - ✅ README.md
@@ -104,7 +104,7 @@ bash 99\ _Сервис/Scripts/test_git_privacy.sh
 
 # Commit
 git add 99\ _Сервис/
-git commit -m "Update: dbrain-processor skill"
+git commit -m "Update: agent skill"
 
 # Push
 git push origin main
