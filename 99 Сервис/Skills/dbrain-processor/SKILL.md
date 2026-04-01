@@ -96,12 +96,15 @@ mcp-cli call todoist get-overview '{}'
 
 ## Processing Flow
 
-1. **Load personal context** — Read 60 Цели/1-yearly, 60 Цели/2-monthly, 60 Цели/3-weekly
-   - **Extract ONE Big Thing** from `60 Цели/3-weekly.md` (section `## ONE Big Thing`):
-     - Look for blockquote starting with `> **If I accomplish nothing else, I will:**`
-     - Text after this line is your `{ONE_BIG_THING}`
-     - If section empty or contains only template text → report "Не определён — 60 Цели/3-weekly.md требует обновления"
-     - If actual goal present → use it in report: `{ONE_BIG_THING}`
+1. **Load personal context** — ОБЯЗАТЕЛЬНО прочитай файлы через read tool:
+   - `read("/home/node/.openclaw/agents/second-brain/vault/60 Цели/3-weekly.md")`
+   - `read("/home/node/.openclaw/agents/second-brain/vault/60 Цели/2-monthly.md")`
+   - `read("/home/node/.openclaw/agents/second-brain/vault/60 Цели/1-yearly-2026.md")`
+   - **Extract ONE Big Thing** из прочитанного файла 3-weekly.md (секция `## ONE Big Thing`):
+     - Найди строку `> **If I accomplish nothing else, I will:**`
+     - Следующая строка после неё = `{ONE_BIG_THING}` (убери префикс `> `)
+     - Только если файл не существует или секция пустая → пиши "Не определён"
+     - Если цель найдена → вставь её дословно в `{ONE_BIG_THING}`
 2. **Load business context**:
    - Read `business/_index.md` — Your Business (клиенты, проекты, CRM)
    - Read `projects/_index.md` — личные проекты (если релевантно)
@@ -506,8 +509,7 @@ Output RAW HTML (no markdown, no code blocks):
 
 <b>🎯 Текущий фокус:</b>
 {ONE_BIG_THING}
-<i>Источник: 60 Цели/3-weekly.md, раздел "## ONE Big Thing"</i>
-<i>Если не заполнен → "Не определён — 60 Цели/3-weekly.md требует обновления"</i>
+<i>Источник: 60 Цели/3-weekly.md → секция "## ONE Big Thing" → строка после "> **If I accomplish nothing else, I will:**"</i>
 
 <b>📓 Сохранено мыслей:</b> {N}
 • {emoji} {title} → {category}/

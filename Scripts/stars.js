@@ -1,1 +1,0 @@
-/home/khabarovru/.openclaw/agents/second-brain/vault/99 Сервис/Scripts/stars.js
