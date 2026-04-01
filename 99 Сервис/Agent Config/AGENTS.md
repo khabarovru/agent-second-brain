@@ -308,3 +308,27 @@ openclaw gateway restart
 Agent A → пишет: scratchpad/2026-04-01-12-parsed.json
 Agent B → читает и продолжает без ожидания
 ```
+
+## Synthesis Rules — КРИТИЧНО
+
+**НИКОГДА** не пиши фразы вида:
+- "based on your findings, do X"
+- "use the results from the previous agent"
+- "as the subagent found..."
+- "согласно результатам субагента, сделай..."
+- "на основе найденного, выполни..."
+
+### Что делать вместо
+
+**Плохо:** "Based on your findings, update the config."
+
+**Хорошо:** "Открой `/home/node/.openclaw/openclaw.json`, найди ключ `agents.list[id=coach]`, добавь `memorySearch.provider = 'mistral'`, сохрани."
+
+### Правило синтеза
+
+Если субагент вернул данные — **ПРОЧИТАЙ их сам**, затем напиши конкретный spec:
+- точные пути к файлам
+- точные строки/ключи для изменения
+- конкретные значения, не ссылки на "найденное"
+
+Агент-исполнитель не должен ничего интерпретировать — только выполнять точные инструкции.
