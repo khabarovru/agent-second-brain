@@ -172,6 +172,29 @@ yarn-error.log*
 99 _Сервис/OpenClaw/*
 !99 _Сервис/OpenClaw/.gitkeep
 
+# ===== Личные сводки и дайджесты =====
+80 Сводки/*
+!80 Сводки/.gitkeep
+
+85 Сводки/*
+!85 Сводки/.gitkeep
+
+# Папка 35 Проекты (личные данные)
+35 Проекты/*
+!35 Проекты/.gitkeep
+
+# Память агентов и дневники агентов
+99 Сервис/Main Agent Memory/*
+!99 Сервис/Main Agent Memory/.gitkeep
+99 Сервис/Agents/**
+!99 Сервис/Agents/.gitkeep
+
+# Рисунки и вложения Excalidraw/Ink
+99 Сервис/Excalidraw/*
+!99 Сервис/Excalidraw/.gitkeep
+99 Сервис/Ink/*
+!99 Сервис/Ink/.gitkeep
+
 # ===== OpenClaw Agent Config (добавлено автоматически) =====
 # Личные конфиги агентов - не коммитить
 99 Сервис/Agent Config/*

@@ -1,5 +1,0 @@
----
-related:
-  - "[[MEMORY]]"
----
-# Projects Index

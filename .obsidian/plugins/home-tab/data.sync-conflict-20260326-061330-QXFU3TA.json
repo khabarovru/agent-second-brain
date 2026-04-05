@@ -1,0 +1,82 @@
+{
+  "logoType": "default",
+  "logo": {
+    "lucideIcon": "",
+    "imagePath": "Вложения/attachments/обложка-на-ютуб.png",
+    "imageLink": ""
+  },
+  "logoScale": 1.9,
+  "iconColorType": "default",
+  "wordmark": "OBSIDIAN",
+  "customFont": "custom",
+  "fontSize": "3.5em",
+  "fontColorType": "default",
+  "fontWeight": 700,
+  "maxResults": 25,
+  "showbookmarkedFiles": false,
+  "showRecentFiles": true,
+  "maxRecentFiles": 14,
+  "storeRecentFile": true,
+  "showPath": true,
+  "selectionHighlight": "default",
+  "showShortcuts": true,
+  "markdownOnly": false,
+  "unresolvedLinks": false,
+  "recentFilesStore": [
+    {
+      "filepath": "10 Заметки/11. Все Объекты. Оплата и ЭДО.md",
+      "timestamp": 1774457198825
+    },
+    {
+      "filepath": "60 Цели/1-yearly-2025.md",
+      "timestamp": 1774455655698
+    },
+    {
+      "filepath": "60 Цели/1-yearly-2026.md",
+      "timestamp": 1774455654766
+    },
+    {
+      "filepath": "60 Цели/1-yearly-YYYY.md",
+      "timestamp": 1774455652693
+    },
+    {
+      "filepath": "60 Цели/2-monthly.md",
+      "timestamp": 1774455648698
+    },
+    {
+      "filepath": "60 Цели/3-weekly.md",
+      "timestamp": 1774455644015
+    },
+    {
+      "filepath": "60 Цели/MOC-goals.md",
+      "timestamp": 1774455642580
+    },
+    {
+      "filepath": "20 Ежедневник/Daily Notes/2026-03-19.md",
+      "timestamp": 1774455622010
+    },
+    {
+      "filepath": "20 Ежедневник/Daily Notes/2026-03-20.md",
+      "timestamp": 1774455589387
+    },
+    {
+      "filepath": "20 Ежедневник/Daily Notes/2026-03-21.md",
+      "timestamp": 1774455588860
+    },
+    {
+      "filepath": "20 Ежедневник/Daily Notes/MOC-daily.md",
+      "timestamp": 1774455588130
+    }
+  ],
+  "bookmarkedFileStore": [],
+  "searchDelay": 500,
+  "replaceNewTabs": true,
+  "newTabOnStart": false,
+  "closePreviousSessionTabs": false,
+  "omnisearch": true,
+  "showOmnisearchExcerpt": true,
+  "showStarredFiles": false,
+  "starredFileStore": [],
+  "font": "AICON",
+  "fontColor": "#4286f2"
+}

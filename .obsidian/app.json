@@ -1,4 +1,5 @@
 {
+  "defaultViewMode": "preview",
   "promptDelete": false,
   "alwaysUpdateLinks": true,
   "newFileLocation": "folder",
