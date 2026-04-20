@@ -1,0 +1,79 @@
+{
+  "trigger_auto_manual": "Automatic",
+  "use_regex_to_check_for_tags": false,
+  "statusBar_trigger_indicator": true,
+  "folder_tag_pattern": [
+    {
+      "folder": "30 Нефильтрованное/Telegram/6. 🔑 Ключи",
+      "tag": "#ключи",
+      "pattern": ""
+    },
+    {
+      "folder": "101 Архив/Задачи",
+      "tag": "#отмена",
+      "pattern": ""
+    },
+    {
+      "folder": "101 Архив",
+      "tag": "#архив",
+      "pattern": ""
+    },
+    {
+      "folder": "70 Проекты/💎 Obsidian",
+      "tag": "#обсидиан",
+      "pattern": ""
+    },
+    {
+      "folder": "20 Ежедневник/Решебник",
+      "tag": "#решебник",
+      "pattern": ""
+    },
+    {
+      "folder": "50 Библиотека/Книги",
+      "tag": "#книга",
+      "pattern": ""
+    },
+    {
+      "folder": "30 Нефильтрованное/Telegram/3. 📒 Блокнот",
+      "tag": "#блокнот",
+      "pattern": ""
+    },
+    {
+      "folder": "Вложения/Audio/Recording",
+      "tag": "",
+      "pattern": "Recording"
+    },
+    {
+      "folder": "70 Проекты/👨‍🎓 Обучение",
+      "tag": "#обучение",
+      "pattern": ""
+    }
+  ],
+  "use_regex_to_check_for_excluded_folder": false,
+  "excluded_folder": [
+    {
+      "folder": "10 Организация Обсидиан"
+    },
+    {
+      "folder": "10 Организация Обсидиан/Шаблоны"
+    },
+    {
+      "folder": "10 Организация Обсидиан/Разделы файлов"
+    },
+    {
+      "folder": "20 Ежедневник/Заметки"
+    },
+    {
+      "folder": "20 Ежедневник/Блог"
+    },
+    {
+      "folder": "Netclips"
+    },
+    {
+      "folder": "31 Темы"
+    },
+    {
+      "folder": "70 Мои проекты"
+    }
+  ]
+}

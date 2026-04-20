@@ -1,0 +1,99 @@
+{
+  "new-card-insertion-method": "append",
+  "new-line-trigger": "shift-enter",
+  "show-checkboxes": true,
+  "new-note-folder": "20 Ежедневник/Решебник",
+  "tag-colors": [],
+  "date-format": "YYYY-MM-DD",
+  "date-display-format": "dd, DD.MM.YYYY",
+  "date-picker-week-start": 1,
+  "full-list-lane-width": true,
+  "tag-sort": [],
+  "link-date-to-daily-note": false,
+  "move-tags": true,
+  "lane-width": 350,
+  "date-colors": [
+    {
+      "distance": 1,
+      "unit": "days",
+      "direction": "after",
+      "backgroundColor": "rgba(243, 80, 80, 1)",
+      "color": "rgba(255, 232, 232, 1)",
+      "isBefore": true
+    },
+    {
+      "distance": 1,
+      "unit": "days",
+      "direction": "after",
+      "color": "rgba(18, 25, 8, 1)",
+      "backgroundColor": "rgba(177, 255, 99, 1)",
+      "isToday": true
+    },
+    {
+      "distance": 1,
+      "unit": "days",
+      "direction": "before",
+      "color": "rgba(232, 242, 255, 1)",
+      "backgroundColor": "rgba(81, 134, 231, 1)",
+      "isAfter": true
+    },
+    {
+      "isToday": false,
+      "distance": 4,
+      "unit": "hours",
+      "direction": "after",
+      "color": "rgba(255, 227, 241, 1)",
+      "backgroundColor": "rgba(194, 12, 99, 1)"
+    }
+  ],
+  "archive-with-date": true,
+  "append-archive-date": true,
+  "metadata-keys": [
+    {
+      "metadataKey": "Проект",
+      "label": "Проект:",
+      "shouldHideLabel": true,
+      "containsMarkdown": false
+    },
+    {
+      "metadataKey": "Назначено",
+      "label": "Назначено:",
+      "shouldHideLabel": false,
+      "containsMarkdown": false
+    },
+    {
+      "metadataKey": "Дедлайн",
+      "label": "Крайний срок:",
+      "shouldHideLabel": false,
+      "containsMarkdown": false
+    },
+    {
+      "metadataKey": "Дата_ок",
+      "label": "Выполнено:",
+      "shouldHideLabel": false,
+      "containsMarkdown": false
+    },
+    {
+      "metadataKey": "Стадия",
+      "label": "Стадия:",
+      "shouldHideLabel": false,
+      "containsMarkdown": false
+    },
+    {
+      "metadataKey": "tags",
+      "label": "Тэги:",
+      "shouldHideLabel": false,
+      "containsMarkdown": false
+    }
+  ],
+  "move-task-metadata": true,
+  "tag-action": "kanban",
+  "move-dates": true,
+  "time-format": "HH:mm",
+  "date-trigger": "\"",
+  "archive-date-format": "YYYY-MM-DD HH:mm",
+  "show-archive-all": true,
+  "show-search": true,
+  "show-view-as-markdown": false,
+  "inline-metadata-position": "footer"
+}

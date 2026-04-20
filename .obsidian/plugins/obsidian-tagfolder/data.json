@@ -1,0 +1,45 @@
+{
+  "displayMethod": "NAME",
+  "alwaysOpen": false,
+  "ignoreDocTags": "",
+  "ignoreTags": "",
+  "hideOnRootTags": "",
+  "sortType": "NAME_DESC",
+  "sortExactFirst": true,
+  "sortTypeTag": "NAME_ASC",
+  "expandLimit": 2,
+  "disableNestedTags": true,
+  "hideItems": "NONE",
+  "ignoreFolders": "10 Организация Обсидиан/Шаблоны,10 Организация Обсидиан/Разделы файлов,10 Организация Обсидиан/Разделы файлов (backup)",
+  "targetFolders": "",
+  "scanDelay": 250,
+  "useTitle": false,
+  "reduceNestedParent": true,
+  "frontmatterKey": "title",
+  "useTagInfo": true,
+  "tagInfo": "tag info.md",
+  "mergeRedundantCombination": true,
+  "useVirtualTag": false,
+  "useFrontmatterTagsForNewNotes": true,
+  "doNotSimplifyTags": false,
+  "overrideTagClicking": true,
+  "useMultiPaneList": false,
+  "archiveTags": "",
+  "disableNarrowingDown": true,
+  "expandUntaggedToRoot": false,
+  "disableDragging": false,
+  "linkConfig": {
+    "incoming": {
+      "enabled": true,
+      "key": ""
+    },
+    "outgoing": {
+      "enabled": true,
+      "key": ""
+    }
+  },
+  "linkShowOnlyFDR": true,
+  "linkCombineOtherTree": true,
+  "showListIn": "",
+  "displayFolderAsTag": false
+}

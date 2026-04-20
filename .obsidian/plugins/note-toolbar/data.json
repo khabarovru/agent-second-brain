@@ -1,0 +1,2924 @@
+{
+  "debugEnabled": false,
+  "emptyViewToolbar": "d9b152e8-10a7-4b62-8225-1669959dfc60",
+  "export": {
+    "includeIcons": true,
+    "replaceVars": true,
+    "useDataEls": true,
+    "useIds": true
+  },
+  "folderMappings": [
+    {
+      "folder": "20 Ежедневник",
+      "toolbar": "e968f15d-82e9-42e5-a3d9-901a1ba661ab"
+    },
+    {
+      "folder": "30 Нефильтрованное",
+      "toolbar": "e968f15d-82e9-42e5-a3d9-901a1ba661ab"
+    },
+    {
+      "folder": "40 Сферы",
+      "toolbar": "e968f15d-82e9-42e5-a3d9-901a1ba661ab"
+    },
+    {
+      "folder": "50 Библиотека",
+      "toolbar": "e968f15d-82e9-42e5-a3d9-901a1ba661ab"
+    },
+    {
+      "folder": "60 Мои Книги",
+      "toolbar": "e968f15d-82e9-42e5-a3d9-901a1ba661ab"
+    },
+    {
+      "folder": "101 Архив",
+      "toolbar": "e968f15d-82e9-42e5-a3d9-901a1ba661ab"
+    },
+    {
+      "folder": "70 Мои проекты",
+      "toolbar": "e968f15d-82e9-42e5-a3d9-901a1ba661ab"
+    },
+    {
+      "folder": "80 База знаний",
+      "toolbar": "e968f15d-82e9-42e5-a3d9-901a1ba661ab"
+    },
+    {
+      "folder": "Netclips",
+      "toolbar": "e968f15d-82e9-42e5-a3d9-901a1ba661ab"
+    },
+    {
+      "folder": "31 Темы",
+      "toolbar": "e968f15d-82e9-42e5-a3d9-901a1ba661ab"
+    },
+    {
+      "folder": "70 Проекты",
+      "toolbar": "e968f15d-82e9-42e5-a3d9-901a1ba661ab"
+    },
+    {
+      "folder": "10 Организация Обсидиан/Подсказки",
+      "toolbar": "d9b152e8-10a7-4b62-8225-1669959dfc60"
+    },
+    {
+      "folder": "10 Организация Обсидиан/Шаблоны",
+      "toolbar": "e968f15d-82e9-42e5-a3d9-901a1ba661ab"
+    },
+    {
+      "folder": "10 Организация Обсидиан/Разделы файлов",
+      "toolbar": "e968f15d-82e9-42e5-a3d9-901a1ba661ab"
+    },
+    {
+      "folder": "10 Организация Обсидиан/Пользовательские поля",
+      "toolbar": "e968f15d-82e9-42e5-a3d9-901a1ba661ab"
+    },
+    {
+      "folder": "10 Организация Обсидиан/Привычки",
+      "toolbar": "e968f15d-82e9-42e5-a3d9-901a1ba661ab"
+    },
+    {
+      "folder": "*",
+      "toolbar": "d9b152e8-10a7-4b62-8225-1669959dfc60"
+    }
+  ],
+  "icon": "feather-menu",
+  "keepPropsState": false,
+  "lockCallouts": true,
+  "onboarding": {
+    "new-toolbar-mapping": true
+  },
+  "ribbonAction": "toolbar",
+  "rules": [],
+  "scriptingEnabled": true,
+  "showEditInFabMenu": true,
+  "showLaunchpad": false,
+  "showToolbarIn": {
+    "audio": false,
+    "canvas": true,
+    "image": false,
+    "pdf": true,
+    "video": false,
+    "kanban": true,
+    "bases": true
+  },
+  "showToolbarInFileMenu": true,
+  "showToolbarInOther": "",
+  "toolbarProp": "notetoolbar",
+  "toolbars": [
+    {
+      "uuid": "38b4321c-8545-4d36-ba07-013896a782c9",
+      "customClasses": "button-green",
+      "defaultItem": null,
+      "defaultStyles": [
+        "even",
+        "sticky",
+        "border"
+      ],
+      "hasCommand": true,
+      "items": [
+        {
+          "uuid": "cbea91ad-8947-4dab-9384-1798c05dfd40",
+          "hasCommand": false,
+          "icon": "lucide-list-checks",
+          "inGallery": false,
+          "label": "  Список",
+          "link": "",
+          "linkAttr": {
+            "commandId": "editor:cycle-list-checklist",
+            "hasVars": false,
+            "target": "",
+            "type": "command"
+          },
+          "plugin": "",
+          "tooltip": "Cycle bullet/checkbox",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "uuid": "e52353b9-c66f-4496-91e9-6888cd70b856",
+          "hasCommand": false,
+          "icon": "lucide-pen-square",
+          "inGallery": false,
+          "label": "  Блог",
+          "link": "",
+          "linkAttr": {
+            "commandId": "",
+            "hasVars": false,
+            "type": "templater-obsidian"
+          },
+          "tooltip": "",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          },
+          "scriptConfig": {
+            "pluginFunction": "parseTemplate",
+            "outputContainer": "",
+            "expression": "<% \"[[\" + \"БЛОГ \" + moment(tp.file.title, \"YYYY-MM-DD\").format(\"YYYY-MM-DD\") + \"]]:\" %>"
+          }
+        },
+        {
+          "uuid": "071e30da-515a-4fd0-b919-f97d103b4098",
+          "label": "  Ссылка",
+          "hasCommand": false,
+          "icon": "lucide-arrow-up-right-square",
+          "link": "Editing Toolbar: Add internal link",
+          "linkAttr": {
+            "commandId": "editing-toolbar:editor:insert-wikilink",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          },
+          "inGallery": false
+        },
+        {
+          "uuid": "d0e6c721-28b4-47ea-a64b-8667b13aa1ea",
+          "hasCommand": false,
+          "icon": "lucide-pen-square",
+          "inGallery": false,
+          "label": "  Блог 2",
+          "link": "",
+          "linkAttr": {
+            "commandId": "",
+            "hasVars": false,
+            "type": "templater-obsidian"
+          },
+          "tooltip": "",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          },
+          "scriptConfig": {
+            "pluginFunction": "parseTemplate",
+            "outputContainer": "",
+            "expression": "<% tp.date.now(\"[[[БЛОГ \" + tp.date.now(\"YYYY-MM-DD\") + \"]]]\", 0, tp.file.title, \"YYYY-MM-DD\") %>\n"
+          }
+        },
+        {
+          "uuid": "1cb4a0f5-a6a4-46f3-810a-c42dd041308a",
+          "hasCommand": false,
+          "icon": "lucide-pen-square",
+          "inGallery": false,
+          "label": "  Блог 3",
+          "link": "",
+          "linkAttr": {
+            "commandId": "",
+            "hasVars": false,
+            "type": "templater-obsidian"
+          },
+          "tooltip": "",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          },
+          "scriptConfig": {
+            "pluginFunction": "parseTemplate",
+            "outputContainer": "",
+            "expression": "<% tp.date.now(\"[[[БЛОГ \" + tp.date.now(\"YYYY-MM-DD\") + \"]]]\", 0, tp.file.title, \"YYYY-MM-DD\") %>\n"
+          }
+        },
+        {
+          "uuid": "e97545bc-05fd-4e2f-9672-5e47afadc690",
+          "hasCommand": true,
+          "icon": "remix-ProductHuntLine",
+          "inGallery": false,
+          "label": "",
+          "link": "",
+          "linkAttr": {
+            "commandCheck": false,
+            "commandId": "",
+            "hasVars": false,
+            "type": "templater-obsidian"
+          },
+          "tooltip": "Прогресс-бар (Win+Alt+P)",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          },
+          "scriptConfig": {
+            "pluginFunction": "appendTemplate",
+            "sourceFile": "99 _Сервис/Организация Обсидиан/Шаблоны/Прогресс бар.md"
+          }
+        }
+      ],
+      "mobileStyles": [],
+      "name": "БЛОГ",
+      "position": {
+        "desktop": {
+          "allViews": {
+            "position": "props"
+          }
+        },
+        "mobile": {
+          "allViews": {
+            "position": "props"
+          }
+        },
+        "tablet": {
+          "allViews": {
+            "position": "props"
+          }
+        }
+      },
+      "updated": "2025-11-06T01:56:50.569Z"
+    },
+    {
+      "uuid": "e968f15d-82e9-42e5-a3d9-901a1ba661ab",
+      "customClasses": "top-panel",
+      "defaultItem": null,
+      "defaultStyles": [
+        "border",
+        "between",
+        "wide",
+        "center"
+      ],
+      "hasCommand": true,
+      "items": [
+        {
+          "uuid": "c9a47956-03bd-40c1-aea8-73b0ff9797e9",
+          "label": "",
+          "hasCommand": false,
+          "icon": "lucide-panels-left-bottom",
+          "link": "QuickAdd: Panels QA",
+          "linkAttr": {
+            "commandId": "quickadd:choice:1e9625a6-d9e6-444a-80d1-b464deb8d140",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "Свернуть/раскрыть все панели",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          },
+          "inGallery": false
+        },
+        {
+          "uuid": "9bf57460-a9dd-432b-992c-01290c40d489",
+          "label": "",
+          "hasCommand": false,
+          "icon": "feather-layers",
+          "link": "Сложить/разложить вкладки",
+          "linkAttr": {
+            "commandId": "workspace:toggle-stacked-tabs",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "Каскадный режим вкладок",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          },
+          "inGallery": false
+        },
+        {
+          "uuid": "7ac68203-225c-440e-b07b-f7a04d15ff6b",
+          "label": "",
+          "hasCommand": false,
+          "icon": "",
+          "link": "",
+          "linkAttr": {
+            "commandId": "",
+            "hasVars": false,
+            "type": "separator"
+          },
+          "tooltip": "",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          },
+          "inGallery": false
+        },
+        {
+          "uuid": "2ad36927-3024-4aba-a32c-69a26a1b9001",
+          "hasCommand": false,
+          "icon": "feather-play-circle",
+          "inGallery": false,
+          "label": "",
+          "link": "Диктофон: Начать запись аудио",
+          "linkAttr": {
+            "commandCheck": false,
+            "commandId": "audio-recorder:start",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "Начать запись",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "uuid": "9d3399a9-9150-46a0-9bfc-a5f05106634a",
+          "hasCommand": false,
+          "icon": "feather-stop-circle",
+          "inGallery": false,
+          "label": "",
+          "link": "Диктофон: Остановить запись аудио",
+          "linkAttr": {
+            "commandCheck": false,
+            "commandId": "audio-recorder:stop",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "Остановить запись",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "uuid": "7618b778-43d2-4624-8ad2-e44ecd3189c4",
+          "hasCommand": false,
+          "icon": "",
+          "inGallery": false,
+          "label": "",
+          "link": "",
+          "linkAttr": {
+            "commandCheck": false,
+            "commandId": "",
+            "hasVars": false,
+            "type": "separator"
+          },
+          "tooltip": "",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "uuid": "d1e8eb19-3fa4-4850-b1b3-f31899c318b1",
+          "hasCommand": false,
+          "icon": "lucide-pen-square",
+          "inGallery": false,
+          "label": "",
+          "link": "",
+          "linkAttr": {
+            "commandId": "",
+            "hasVars": false,
+            "type": "templater-obsidian"
+          },
+          "tooltip": "Ссылка на сегодняшний блог",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          },
+          "scriptConfig": {
+            "pluginFunction": "parseTemplate",
+            "expression": "<% tp.date.now(\"[[[БЛОГ \" + tp.date.now(\"YYYY-MM-DD\") + \"]]]\", 0, tp.file.title, \"YYYY-MM-DD\") %>\n"
+          }
+        },
+        {
+          "uuid": "15cb7095-1942-4bb6-8fd8-2d4985f4407e",
+          "label": "",
+          "hasCommand": false,
+          "icon": "lucide-smile-plus",
+          "link": "Emoji Toolbar: Open emoji picker",
+          "linkAttr": {
+            "commandId": "obsidian-emoji-toolbar:emoji-picker:open-picker",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "Эмодзи",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          },
+          "inGallery": false
+        },
+        {
+          "uuid": "c1237e07-6431-4ddb-b9e2-1b0683126d4c",
+          "hasCommand": false,
+          "icon": "remix-FireLine",
+          "inGallery": false,
+          "label": "",
+          "link": "",
+          "linkAttr": {
+            "commandCheck": false,
+            "commandId": "",
+            "hasVars": false,
+            "type": "templater-obsidian"
+          },
+          "tooltip": "Выбрать символ",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          },
+          "scriptConfig": {
+            "pluginFunction": "parseTemplate",
+            "expression": "<%`:li`%>"
+          }
+        },
+        {
+          "uuid": "bd9bcd1c-2974-4c55-95b2-d6bf9adf397c",
+          "label": "",
+          "hasCommand": false,
+          "icon": "lucide-check-square",
+          "link": "cMenu: Toggle checklist status",
+          "linkAttr": {
+            "commandId": "cmenu-plugin:editor:toggle-checklist-status",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "Чек-бокс",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          },
+          "inGallery": false
+        },
+        {
+          "uuid": "4d463add-130f-408c-babc-febfab224a11",
+          "label": "",
+          "hasCommand": false,
+          "icon": "lucide-arrow-up-right-square",
+          "link": "Editing Toolbar: Add internal link",
+          "linkAttr": {
+            "commandId": "editing-toolbar:editor:insert-wikilink",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "Внутренняя ссылка",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          },
+          "inGallery": false
+        },
+        {
+          "uuid": "a6eccf35-4d4f-48bd-8e39-a18de926cabe",
+          "label": "",
+          "hasCommand": false,
+          "icon": "remix-ExternalLinkLine",
+          "link": "cMenu: Insert markdown link",
+          "linkAttr": {
+            "commandId": "cmenu-plugin:editor:insert-link",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "Внешняя ссылка",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          },
+          "inGallery": false
+        },
+        {
+          "uuid": "76f6bd73-8ff6-4da6-b069-eb613488169c",
+          "label": "",
+          "hasCommand": false,
+          "icon": "lucide-asterisk-square",
+          "link": "QuickAdd: Stars QA",
+          "linkAttr": {
+            "commandId": "quickadd:choice:ea9531cf-f53b-4f85-b44a-0f90a7b5e920",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "Выделить текст *текст*",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          },
+          "inGallery": false
+        },
+        {
+          "uuid": "95bb696e-8855-418b-9e09-c40ad8fb650a",
+          "label": "",
+          "hasCommand": false,
+          "icon": "lucide-square",
+          "link": "QuickAdd: Square QA",
+          "linkAttr": {
+            "commandId": "quickadd:choice:9647b496-ab1e-4018-9fa5-e19c9f86f536",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "Сделать ссылкой каждое выделенное слово",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          },
+          "scriptConfig": {
+            "pluginFunction": "parseTemplateFile",
+            "sourceFile": "10 Организация Обсидиан/Шаблоны/expand-lists.md"
+          },
+          "inGallery": false
+        },
+        {
+          "uuid": "9bcfb40e-aa72-4ed4-aaac-d664231f8986",
+          "hasCommand": false,
+          "icon": "lucide-square-chevron-up",
+          "inGallery": false,
+          "label": "",
+          "link": "",
+          "linkAttr": {
+            "commandId": "",
+            "hasVars": false,
+            "type": "templater-obsidian"
+          },
+          "tooltip": "Добавить поясняющую сноску",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          },
+          "scriptConfig": {
+            "pluginFunction": "parseTemplate",
+            "expression": "<% `^[]` %>"
+          }
+        },
+        {
+          "uuid": "f2709fb5-da85-477f-91c8-b2512f2ba64a",
+          "label": "",
+          "hasCommand": false,
+          "icon": "lucide-quote",
+          "link": "Цитата",
+          "linkAttr": {
+            "commandId": "editor:toggle-blockquote",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "Выделить цитатой",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          },
+          "inGallery": false
+        },
+        {
+          "uuid": "dc90b7d1-1d90-482d-8ed5-c85e31e507b1",
+          "label": "",
+          "hasCommand": false,
+          "icon": "lucide-percent",
+          "link": "cMenu: Toggle comment",
+          "linkAttr": {
+            "commandId": "cmenu-plugin:editor:toggle-comments",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "Скрытый комментарий",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          },
+          "inGallery": false
+        },
+        {
+          "uuid": "82602d88-c064-469f-bbb7-47c799e032c1",
+          "label": "",
+          "hasCommand": false,
+          "icon": "feather-code",
+          "link": "cMenu: Toggle code",
+          "linkAttr": {
+            "commandId": "cmenu-plugin:editor:toggle-code",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "Моноширинный текст (код)",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          },
+          "inGallery": false
+        },
+        {
+          "uuid": "0eb36bf6-9a16-4e18-866e-36223ec8d51a",
+          "label": "",
+          "hasCommand": false,
+          "icon": "codeblock-glyph",
+          "link": "cMenu: Toggle codeblock",
+          "linkAttr": {
+            "commandId": "cmenu-plugin:codeblock",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "Блок кода",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          },
+          "inGallery": false
+        },
+        {
+          "uuid": "45aed1fc-6a60-492f-9a7a-1fb99c440195",
+          "label": "",
+          "hasCommand": false,
+          "icon": "",
+          "link": "",
+          "linkAttr": {
+            "commandId": "",
+            "hasVars": false,
+            "type": "separator"
+          },
+          "tooltip": "",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          },
+          "inGallery": false
+        },
+        {
+          "uuid": "724f18da-dbc9-4877-b6a0-b6f852116748",
+          "label": "",
+          "hasCommand": false,
+          "icon": "lucide-folder-sync",
+          "link": "Переместить файл в другую папку",
+          "linkAttr": {
+            "commandId": "file-explorer:move-file",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "Изменить папку",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          },
+          "inGallery": false
+        },
+        {
+          "uuid": "160095c1-b724-4b14-8cbf-e51193132dcf",
+          "label": "",
+          "hasCommand": false,
+          "icon": "lucide-folder-input",
+          "link": "Показать в Проводнике",
+          "linkAttr": {
+            "commandId": "open-with-default-app:show",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "Показать в проводнике",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          },
+          "inGallery": false
+        },
+        {
+          "uuid": "25e0bb58-08d1-426e-970e-a3566cfedb01",
+          "hasCommand": false,
+          "icon": "lucide-folder-plus",
+          "inGallery": false,
+          "label": "",
+          "link": "",
+          "linkAttr": {
+            "commandCheck": false,
+            "commandId": "",
+            "hasVars": false,
+            "type": "templater-obsidian"
+          },
+          "tooltip": "Путь к папке",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          },
+          "scriptConfig": {
+            "pluginFunction": "parseTemplate",
+            "expression": "<% `[Имя папки](<file:///C:\\путь\\к\\папке>)` %>"
+          }
+        },
+        {
+          "uuid": "87428fc8-a387-42ce-89aa-48ec3db3fa0f",
+          "label": "",
+          "hasCommand": false,
+          "icon": "remix-DeleteBin6Line",
+          "link": "Удалить текущий файл",
+          "linkAttr": {
+            "commandId": "app:delete-file",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "Удалить заметку",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          },
+          "inGallery": false
+        },
+        {
+          "uuid": "6bae1dea-6edf-4238-b604-2f0060e98fb7",
+          "label": "",
+          "hasCommand": false,
+          "icon": "",
+          "link": "",
+          "linkAttr": {
+            "commandId": "",
+            "hasVars": false,
+            "type": "separator"
+          },
+          "tooltip": "",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          },
+          "inGallery": false
+        },
+        {
+          "uuid": "8d6edc9d-21bb-43c1-bde9-29031bff126e",
+          "label": "",
+          "hasCommand": false,
+          "icon": "lucide-command",
+          "link": "Палитра команд: Открыть палитру команд",
+          "linkAttr": {
+            "commandId": "command-palette:open",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "Командная палитра",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          },
+          "inGallery": false
+        },
+        {
+          "uuid": "60185cfe-87d0-48fb-821c-0040aa989f20",
+          "label": "",
+          "hasCommand": false,
+          "icon": "lucide-panel-left-close",
+          "link": "Свернуть/развернуть левую панель",
+          "linkAttr": {
+            "commandId": "app:toggle-left-sidebar",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "Свернуть/развернуть левую панель",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          },
+          "inGallery": false
+        },
+        {
+          "uuid": "c58ce12e-4db5-4f6d-97b5-a6ba5bece2f1",
+          "label": "",
+          "hasCommand": false,
+          "icon": "lucide-panel-right-close",
+          "link": "Свернуть/развернуть правую панель",
+          "linkAttr": {
+            "commandId": "app:toggle-right-sidebar",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "Свернуть/развернуть правую панель",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          },
+          "inGallery": false
+        }
+      ],
+      "mobileStyles": [],
+      "name": "Редактор",
+      "position": {
+        "desktop": {
+          "allViews": {
+            "position": "top"
+          }
+        },
+        "mobile": {
+          "allViews": {
+            "position": "top"
+          }
+        },
+        "tablet": {
+          "allViews": {
+            "position": "top"
+          }
+        }
+      },
+      "updated": "2025-11-15T00:27:33.788Z"
+    },
+    {
+      "uuid": "d9b152e8-10a7-4b62-8225-1669959dfc60",
+      "customClasses": "default",
+      "defaultItem": null,
+      "defaultStyles": [
+        "between",
+        "wide",
+        "center",
+        "autohide",
+        "inactive"
+      ],
+      "hasCommand": false,
+      "items": [
+        {
+          "uuid": "bc461fd0-87d2-466f-b013-4e2f326813c1",
+          "label": "",
+          "hasCommand": false,
+          "icon": "lucide-panels-left-bottom",
+          "link": "QuickAdd: Panels QA",
+          "linkAttr": {
+            "commandId": "quickadd:choice:1e9625a6-d9e6-444a-80d1-b464deb8d140",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "Свернуть/раскрыть все панели",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          },
+          "inGallery": false
+        },
+        {
+          "uuid": "54e4ea6a-089d-4690-951c-606db6d47d46",
+          "label": "",
+          "hasCommand": false,
+          "icon": "feather-layers",
+          "link": "Сложить/разложить вкладки",
+          "linkAttr": {
+            "commandId": "workspace:toggle-stacked-tabs",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "Каскадный режим вкладок",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          },
+          "inGallery": false
+        },
+        {
+          "uuid": "674d808e-ba20-4144-a5b9-f741b9abad43",
+          "label": "",
+          "hasCommand": false,
+          "icon": "",
+          "link": "",
+          "linkAttr": {
+            "commandId": "",
+            "hasVars": false,
+            "type": "separator"
+          },
+          "tooltip": "",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          },
+          "inGallery": false
+        },
+        {
+          "uuid": "380a43c9-4093-480f-bc5c-8f9170750e8c",
+          "hasCommand": false,
+          "icon": "remix-PlayLine",
+          "inGallery": false,
+          "label": "",
+          "link": "Диктофон: Начать запись аудио",
+          "linkAttr": {
+            "commandCheck": false,
+            "commandId": "audio-recorder:start",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "Начать запись",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "uuid": "2e5eb2c5-19e2-4fcb-bff9-ee5aeb84bf34",
+          "hasCommand": false,
+          "icon": "remix-StopCircleLine",
+          "inGallery": false,
+          "label": "",
+          "link": "Диктофон: Остановить запись аудио",
+          "linkAttr": {
+            "commandCheck": false,
+            "commandId": "audio-recorder:stop",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "Остановить запись",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "uuid": "3e50d33c-bf5e-40fe-b6cc-f9b1984a95dc",
+          "hasCommand": false,
+          "icon": "",
+          "inGallery": false,
+          "label": "",
+          "link": "",
+          "linkAttr": {
+            "commandCheck": false,
+            "commandId": "",
+            "hasVars": false,
+            "type": "separator"
+          },
+          "tooltip": "",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "uuid": "3712db52-e7ec-4e96-ade5-16f2ad27b8f0",
+          "hasCommand": false,
+          "icon": "lucide-pen-square",
+          "inGallery": false,
+          "label": "",
+          "link": "",
+          "linkAttr": {
+            "commandId": "",
+            "hasVars": false,
+            "type": "templater-obsidian"
+          },
+          "tooltip": "Ссылка на сегодняшний блог",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          },
+          "scriptConfig": {
+            "pluginFunction": "parseTemplate",
+            "expression": "<% tp.date.now(\"[[[БЛОГ \" + tp.date.now(\"YYYY-MM-DD\") + \"]]]\", 0, tp.file.title, \"YYYY-MM-DD\") %>\n"
+          }
+        },
+        {
+          "uuid": "2b454eef-3408-487e-ba23-117af659418f",
+          "label": "",
+          "hasCommand": false,
+          "icon": "lucide-smile-plus",
+          "link": "Emoji Toolbar: Open emoji picker",
+          "linkAttr": {
+            "commandId": "obsidian-emoji-toolbar:emoji-picker:open-picker",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "Эмодзи",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          },
+          "inGallery": false
+        },
+        {
+          "uuid": "6b5c94e1-6f9e-40fa-a952-bb448202b4eb",
+          "hasCommand": false,
+          "icon": "remix-FireLine",
+          "inGallery": false,
+          "label": "",
+          "link": "",
+          "linkAttr": {
+            "commandCheck": false,
+            "commandId": "",
+            "hasVars": false,
+            "type": "templater-obsidian"
+          },
+          "tooltip": "Выбрать символ",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          },
+          "scriptConfig": {
+            "pluginFunction": "parseTemplate",
+            "expression": "<%`:li`%>"
+          }
+        },
+        {
+          "uuid": "3c81b803-b74b-4c45-8eaa-eeef07416997",
+          "label": "",
+          "hasCommand": false,
+          "icon": "lucide-check-square",
+          "link": "cMenu: Toggle checklist status",
+          "linkAttr": {
+            "commandId": "cmenu-plugin:editor:toggle-checklist-status",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "Чек-бокс",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          },
+          "inGallery": false
+        },
+        {
+          "uuid": "294b573e-bec2-42f7-813f-8ea34576c6f8",
+          "label": "",
+          "hasCommand": false,
+          "icon": "lucide-arrow-up-right-square",
+          "link": "Editing Toolbar: Add internal link",
+          "linkAttr": {
+            "commandId": "editing-toolbar:editor:insert-wikilink",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "Внутренняя ссылка",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          },
+          "inGallery": false
+        },
+        {
+          "uuid": "ee748380-0eae-437e-8237-09d2a6eeecda",
+          "label": "",
+          "hasCommand": false,
+          "icon": "remix-ExternalLinkLine",
+          "link": "cMenu: Insert markdown link",
+          "linkAttr": {
+            "commandId": "cmenu-plugin:editor:insert-link",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "Внешняя ссылка",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          },
+          "inGallery": false
+        },
+        {
+          "uuid": "69a925ad-7109-4c1b-99cc-7b458d1f63e1",
+          "label": "",
+          "hasCommand": false,
+          "icon": "lucide-asterisk-square",
+          "link": "QuickAdd: Stars QA",
+          "linkAttr": {
+            "commandId": "quickadd:choice:ea9531cf-f53b-4f85-b44a-0f90a7b5e920",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "Выделить текст *текст*",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          },
+          "inGallery": false
+        },
+        {
+          "uuid": "b3772eff-da7a-4e07-9815-e97104199ea3",
+          "label": "",
+          "hasCommand": false,
+          "icon": "lucide-square",
+          "link": "QuickAdd: Square QA",
+          "linkAttr": {
+            "commandId": "quickadd:choice:9647b496-ab1e-4018-9fa5-e19c9f86f536",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "Сделать ссылкой каждое выделенное слово",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          },
+          "scriptConfig": {
+            "pluginFunction": "parseTemplateFile",
+            "sourceFile": "10 Организация Обсидиан/Шаблоны/expand-lists.md"
+          },
+          "inGallery": false
+        },
+        {
+          "uuid": "c520a59b-0fad-4889-9dfa-8f584b9f1483",
+          "hasCommand": false,
+          "icon": "lucide-square-chevron-up",
+          "inGallery": false,
+          "label": "",
+          "link": "",
+          "linkAttr": {
+            "commandId": "",
+            "hasVars": false,
+            "type": "templater-obsidian"
+          },
+          "tooltip": "Добавить поясняющую сноску",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          },
+          "scriptConfig": {
+            "pluginFunction": "parseTemplate",
+            "expression": "<% `^[]` %>"
+          }
+        },
+        {
+          "uuid": "616caafc-aa63-4b1e-b8b3-b8c332fbca6d",
+          "label": "",
+          "hasCommand": false,
+          "icon": "lucide-quote",
+          "link": "Цитата",
+          "linkAttr": {
+            "commandId": "editor:toggle-blockquote",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "Выделить цитатой",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          },
+          "inGallery": false
+        },
+        {
+          "uuid": "e3cac13a-07c6-43bb-8c74-7fba6679ed6c",
+          "label": "",
+          "hasCommand": false,
+          "icon": "lucide-percent",
+          "link": "cMenu: Toggle comment",
+          "linkAttr": {
+            "commandId": "cmenu-plugin:editor:toggle-comments",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "Скрытый комментарий",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          },
+          "inGallery": false
+        },
+        {
+          "uuid": "3d33063d-cfcb-4606-a412-8e73525c14e8",
+          "label": "",
+          "hasCommand": false,
+          "icon": "feather-code",
+          "link": "cMenu: Toggle code",
+          "linkAttr": {
+            "commandId": "cmenu-plugin:editor:toggle-code",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "Моноширинный текст (код)",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          },
+          "inGallery": false
+        },
+        {
+          "uuid": "d0ba8895-0e95-4f8f-b29e-c0196bd42824",
+          "label": "",
+          "hasCommand": false,
+          "icon": "codeblock-glyph",
+          "link": "cMenu: Toggle codeblock",
+          "linkAttr": {
+            "commandId": "cmenu-plugin:codeblock",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "Блок кода",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          },
+          "inGallery": false
+        },
+        {
+          "uuid": "025797ae-23cc-444a-b60a-033bd3c479b8",
+          "label": "",
+          "hasCommand": false,
+          "icon": "",
+          "link": "",
+          "linkAttr": {
+            "commandId": "",
+            "hasVars": false,
+            "type": "separator"
+          },
+          "tooltip": "",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          },
+          "inGallery": false
+        },
+        {
+          "uuid": "b996182a-a08e-4fb6-ad10-a698030847a9",
+          "label": "",
+          "hasCommand": false,
+          "icon": "lucide-folder-sync",
+          "link": "Переместить файл в другую папку",
+          "linkAttr": {
+            "commandId": "file-explorer:move-file",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "Изменить папку",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          },
+          "inGallery": false
+        },
+        {
+          "uuid": "1712de77-4a01-4a24-ba1a-1d6cb1c19cec",
+          "label": "",
+          "hasCommand": false,
+          "icon": "lucide-folder-input",
+          "link": "Показать в Проводнике",
+          "linkAttr": {
+            "commandId": "open-with-default-app:show",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "Показать в проводнике",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          },
+          "inGallery": false
+        },
+        {
+          "uuid": "f439b073-2d33-4a7b-82be-5c0ab1427f2f",
+          "label": "",
+          "hasCommand": false,
+          "icon": "remix-DeleteBin6Line",
+          "link": "Удалить текущий файл",
+          "linkAttr": {
+            "commandId": "app:delete-file",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "Удалить заметку",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          },
+          "inGallery": false
+        },
+        {
+          "uuid": "3bfb1ad6-8eb1-4a28-8e5f-404c15e812d6",
+          "label": "",
+          "hasCommand": false,
+          "icon": "",
+          "link": "",
+          "linkAttr": {
+            "commandId": "",
+            "hasVars": false,
+            "type": "separator"
+          },
+          "tooltip": "",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          },
+          "inGallery": false
+        },
+        {
+          "uuid": "02613bd7-78fd-4f9d-884c-305958f8857f",
+          "label": "",
+          "hasCommand": false,
+          "icon": "lucide-command",
+          "link": "Палитра команд: Открыть палитру команд",
+          "linkAttr": {
+            "commandId": "command-palette:open",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "Командная палитра",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          },
+          "inGallery": false
+        },
+        {
+          "uuid": "6e2846ac-a124-46da-aa7f-fa279d937c4f",
+          "label": "",
+          "hasCommand": false,
+          "icon": "lucide-panel-left-close",
+          "link": "Свернуть/развернуть левую панель",
+          "linkAttr": {
+            "commandId": "app:toggle-left-sidebar",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "Свернуть/развернуть левую панель",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          },
+          "inGallery": false
+        },
+        {
+          "uuid": "e1a214cb-5282-4ca4-9cb3-b60e56c69926",
+          "label": "",
+          "hasCommand": false,
+          "icon": "lucide-panel-right-close",
+          "link": "Свернуть/развернуть правую панель",
+          "linkAttr": {
+            "commandId": "app:toggle-right-sidebar",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "Свернуть/развернуть правую панель",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          },
+          "inGallery": false
+        }
+      ],
+      "mobileStyles": [
+        "mbtwn"
+      ],
+      "name": "Редактор (кружок)",
+      "position": {
+        "desktop": {
+          "allViews": {
+            "position": "fabr"
+          }
+        },
+        "mobile": {
+          "allViews": {
+            "position": "fabr"
+          }
+        },
+        "tablet": {
+          "allViews": {
+            "position": "fabr"
+          }
+        }
+      },
+      "updated": "2025-10-30T23:44:17.661Z"
+    },
+    {
+      "uuid": "5cb9e58f-0c27-484f-a0eb-56ac3a5b2543",
+      "customClasses": "button-blue",
+      "defaultItem": null,
+      "defaultStyles": [
+        "even",
+        "sticky",
+        "tab"
+      ],
+      "hasCommand": false,
+      "items": [
+        {
+          "uuid": "046b50a4-ec5f-436f-bffa-a2413fa8b41f",
+          "hasCommand": false,
+          "icon": "lucide-file-symlink",
+          "inGallery": false,
+          "label": "  Самоссылка",
+          "link": "",
+          "linkAttr": {
+            "commandId": "",
+            "hasVars": false,
+            "type": "templater-obsidian"
+          },
+          "tooltip": "",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          },
+          "scriptConfig": {
+            "pluginFunction": "parseTemplate",
+            "expression": "<% `[[${tp.file.title}]]` %>"
+          }
+        }
+      ],
+      "mobileStyles": [],
+      "name": "Blue",
+      "position": {
+        "desktop": {
+          "allViews": {
+            "position": "bottom"
+          }
+        },
+        "mobile": {
+          "allViews": {
+            "position": "bottom"
+          }
+        },
+        "tablet": {
+          "allViews": {
+            "position": "bottom"
+          }
+        }
+      },
+      "updated": "2025-04-07T14:07:51.291Z"
+    },
+    {
+      "uuid": "35fe6731-eb7c-470b-bd85-c6b82184a387",
+      "customClasses": "button-orange",
+      "defaultItem": null,
+      "defaultStyles": [
+        "even",
+        "sticky",
+        "tab",
+        "center"
+      ],
+      "hasCommand": false,
+      "items": [],
+      "mobileStyles": [],
+      "name": "Orange",
+      "position": {
+        "desktop": {
+          "allViews": {
+            "position": "props"
+          }
+        },
+        "mobile": {
+          "allViews": {
+            "position": "props"
+          }
+        },
+        "tablet": {
+          "allViews": {
+            "position": "props"
+          }
+        }
+      },
+      "updated": "2025-04-06T17:52:37.357Z"
+    },
+    {
+      "uuid": "db0f80f3-d1f9-464b-a886-f111f4202461",
+      "customClasses": "button-pink",
+      "defaultItem": null,
+      "defaultStyles": [
+        "even",
+        "sticky",
+        "tab"
+      ],
+      "hasCommand": false,
+      "items": [],
+      "mobileStyles": [],
+      "name": "Pink",
+      "position": {
+        "desktop": {
+          "allViews": {
+            "position": "props"
+          }
+        },
+        "mobile": {
+          "allViews": {
+            "position": "props"
+          }
+        },
+        "tablet": {
+          "allViews": {
+            "position": "props"
+          }
+        }
+      },
+      "updated": "2025-04-06T19:27:48.315Z"
+    },
+    {
+      "uuid": "fcdb1a23-8450-41b5-bb0f-4f117890a768",
+      "customClasses": "button-red",
+      "defaultItem": null,
+      "defaultStyles": [
+        "even",
+        "sticky",
+        "tab"
+      ],
+      "hasCommand": false,
+      "items": [],
+      "mobileStyles": [],
+      "name": "Red",
+      "position": {
+        "desktop": {
+          "allViews": {
+            "position": "props"
+          }
+        },
+        "mobile": {
+          "allViews": {
+            "position": "props"
+          }
+        },
+        "tablet": {
+          "allViews": {
+            "position": "props"
+          }
+        }
+      },
+      "updated": "2025-04-06T18:45:08.056Z"
+    },
+    {
+      "uuid": "5f3af3b6-3249-44b0-83da-9a619afae4c2",
+      "customClasses": "button-violet",
+      "defaultItem": null,
+      "defaultStyles": [
+        "even",
+        "sticky",
+        "tab"
+      ],
+      "hasCommand": false,
+      "items": [],
+      "mobileStyles": [],
+      "name": "Violet",
+      "position": {
+        "desktop": {
+          "allViews": {
+            "position": "props"
+          }
+        },
+        "mobile": {
+          "allViews": {
+            "position": "props"
+          }
+        },
+        "tablet": {
+          "allViews": {
+            "position": "props"
+          }
+        }
+      },
+      "updated": "2025-04-06T16:33:15.526Z"
+    }
+  ],
+  "version": 20250313.1,
+  "whatsnew_version": "1.25"
+}

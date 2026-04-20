@@ -1,0 +1,11 @@
+{
+  "id": "insert-no-preview",
+  "name": "Insert no preview",
+  "version": "1.0.2",
+  "minAppVersion": "0.15.0",
+  "description": "Inserts specified file types using normal links ([[file]]) instead of embedded previews (![[file]]).",
+  "author": "pliman",
+  "authorUrl": "https://github.com/pliman",
+  "fundingUrl": "",
+  "isDesktopOnly": true
+}

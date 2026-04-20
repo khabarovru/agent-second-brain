@@ -1,0 +1,42 @@
+{
+  "logoType": "default",
+  "logo": {
+    "lucideIcon": "",
+    "imagePath": "Вложения/attachments/обложка-на-ютуб.png",
+    "imageLink": ""
+  },
+  "logoScale": 1.9,
+  "iconColorType": "default",
+  "wordmark": "OBSIDIAN",
+  "customFont": "custom",
+  "fontSize": "3.5em",
+  "fontColorType": "default",
+  "fontWeight": 700,
+  "maxResults": 25,
+  "showbookmarkedFiles": false,
+  "showRecentFiles": true,
+  "maxRecentFiles": 14,
+  "storeRecentFile": true,
+  "showPath": true,
+  "selectionHighlight": "default",
+  "showShortcuts": true,
+  "markdownOnly": false,
+  "unresolvedLinks": false,
+  "recentFilesStore": [
+    {
+      "filepath": "10 Заметки/Наладка. ТК. Германия.md",
+      "timestamp": 1776147104396
+    }
+  ],
+  "bookmarkedFileStore": [],
+  "searchDelay": 500,
+  "replaceNewTabs": true,
+  "newTabOnStart": false,
+  "closePreviousSessionTabs": false,
+  "omnisearch": true,
+  "showOmnisearchExcerpt": true,
+  "showStarredFiles": false,
+  "starredFileStore": [],
+  "font": "AICON",
+  "fontColor": "#4286f2"
+}

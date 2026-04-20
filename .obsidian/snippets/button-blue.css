@@ -1,0 +1,50 @@
+.callout[data-callout="note-toolbar"] {
+  &[data-callout-metadata*="button-blue"] a,
+  &[data-callout-metadata*="button-blue"] .internal-link,
+  &[data-callout-metadata*="button-blue"] .external-link {
+    background: linear-gradient(to right, #120acd, #12abcd) !important; /* от темного фиолетового к неоново-голубому справа налево */
+    color: white !important;
+    border-radius: 0.4rem;
+    padding: 0.5rem 0.8rem;
+    border: none;
+    box-shadow: 0 0 6px #12abcdaa;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+    line-height: 1.2;
+
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+
+    transition: background 0.3s ease-in-out, box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+    transform-origin: center;
+  }
+
+  &[data-callout-metadata*="button-blue"] a span,
+  &[data-callout-metadata*="button-blue"] .internal-link span,
+  &[data-callout-metadata*="button-blue"] .external-link span {
+    transition: transform 0.3s ease-in-out;
+    display: inline-block;
+  }
+
+  &[data-callout-metadata*="button-blue"] a:hover,
+  &[data-callout-metadata*="button-blue"] .internal-link:hover,
+  &[data-callout-metadata*="button-blue"] .external-link:hover {
+    background: linear-gradient(to right, #12abcd, #120acd) !important; /* при ховере наоборот — от неоново-голубого к фиолетовому справа налево */
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(8px);
+    box-shadow: 0 0 4px #12abcd, 0 0 6px #120acd;
+    transform: scale(1.05);
+  }
+
+  &[data-callout-metadata*="button-blue"] a:hover span,
+  &[data-callout-metadata*="button-blue"] .internal-link:hover span,
+  &[data-callout-metadata*="button-blue"] .external-link:hover span {
+    transform: scale(1.05);
+  }
+}

@@ -1,0 +1,309 @@
+{
+  "groups": {
+    "default": {
+      "name": "default",
+      "marks": " ",
+      "complete": false,
+      "removeExpr": "",
+      "appendDateFormat": "➕",
+      "registerCommand": true,
+      "useContextMenu": false,
+      "collection": {
+        "areaHeading": "## Log",
+        "removeCheckbox": true
+      }
+    },
+    "Выполнено": {
+      "name": "Выполнено",
+      "marks": "x",
+      "complete": true,
+      "removeExpr": "",
+      "appendDateFormat": "✅ YYYY-MM-DD",
+      "registerCommand": true,
+      "useContextMenu": false,
+      "collection": {
+        "areaHeading": "## Log",
+        "removeCheckbox": true
+      }
+    },
+    "Избранное": {
+      "name": "Избранное",
+      "marks": "*",
+      "complete": true,
+      "removeExpr": "",
+      "appendDateFormat": "",
+      "registerCommand": true,
+      "useContextMenu": false,
+      "collection": {
+        "areaHeading": "## Log",
+        "removeCheckbox": false
+      }
+    },
+    "Вопросы": {
+      "name": "Вопросы",
+      "marks": "?",
+      "complete": true,
+      "removeExpr": "",
+      "appendDateFormat": "➕",
+      "registerCommand": true,
+      "useContextMenu": false,
+      "collection": {
+        "areaHeading": "## Log",
+        "removeCheckbox": false
+      }
+    },
+    "Место": {
+      "name": "Место",
+      "marks": "l",
+      "complete": true,
+      "removeExpr": "",
+      "appendDateFormat": "➕",
+      "registerCommand": true,
+      "useContextMenu": false,
+      "collection": {
+        "areaHeading": "## Log",
+        "removeCheckbox": false
+      }
+    },
+    "Книжная заметка": {
+      "name": "Книжная заметка",
+      "marks": "b",
+      "complete": true,
+      "removeExpr": "",
+      "appendDateFormat": "",
+      "registerCommand": true,
+      "useContextMenu": false,
+      "collection": {
+        "areaHeading": "## Log",
+        "removeCheckbox": false
+      }
+    },
+    "Информация": {
+      "name": "Информация",
+      "marks": "i",
+      "complete": true,
+      "removeExpr": "",
+      "appendDateFormat": "",
+      "registerCommand": true,
+      "useContextMenu": false,
+      "collection": {
+        "areaHeading": "## Log",
+        "removeCheckbox": false
+      }
+    },
+    "Идеи": {
+      "name": "Идеи",
+      "marks": "I",
+      "complete": true,
+      "removeExpr": "",
+      "appendDateFormat": "",
+      "registerCommand": true,
+      "useContextMenu": false,
+      "collection": {
+        "areaHeading": "## Log",
+        "removeCheckbox": false
+      }
+    },
+    "Лайк": {
+      "name": "Лайк",
+      "marks": "p",
+      "complete": true,
+      "removeExpr": "",
+      "appendDateFormat": "",
+      "registerCommand": true,
+      "useContextMenu": false,
+      "collection": {
+        "areaHeading": "## Log",
+        "removeCheckbox": false
+      }
+    },
+    "Дизлайк": {
+      "name": "Дизлайк",
+      "marks": "c",
+      "complete": true,
+      "removeExpr": "",
+      "appendDateFormat": "",
+      "registerCommand": true,
+      "useContextMenu": false,
+      "collection": {
+        "areaHeading": "## Log",
+        "removeCheckbox": false
+      }
+    },
+    "Огонь": {
+      "name": "Огонь",
+      "marks": "f",
+      "complete": true,
+      "removeExpr": "",
+      "appendDateFormat": "➕",
+      "registerCommand": true,
+      "useContextMenu": false,
+      "collection": {
+        "areaHeading": "## Log",
+        "removeCheckbox": false
+      }
+    },
+    "key": {
+      "name": "key",
+      "marks": "k",
+      "complete": true,
+      "removeExpr": "",
+      "appendDateFormat": "",
+      "registerCommand": true,
+      "useContextMenu": false,
+      "collection": {
+        "areaHeading": "## Log",
+        "removeCheckbox": false
+      }
+    },
+    "Вверх": {
+      "name": "Вверх",
+      "marks": "u",
+      "complete": true,
+      "removeExpr": "",
+      "appendDateFormat": "➕",
+      "registerCommand": true,
+      "useContextMenu": false,
+      "collection": {
+        "areaHeading": "## Log",
+        "removeCheckbox": false
+      }
+    },
+    "Вниз": {
+      "name": "Вниз",
+      "marks": "d",
+      "complete": true,
+      "removeExpr": "",
+      "appendDateFormat": "➕",
+      "registerCommand": true,
+      "useContextMenu": false,
+      "collection": {
+        "areaHeading": "## Log",
+        "removeCheckbox": false
+      }
+    },
+    "Планирование": {
+      "name": "Планирование",
+      "marks": "<",
+      "complete": true,
+      "removeExpr": "",
+      "appendDateFormat": "➕",
+      "registerCommand": true,
+      "useContextMenu": false,
+      "collection": {
+        "areaHeading": "## Log",
+        "removeCheckbox": false
+      }
+    },
+    "Поздравление": {
+      "name": "Поздравление",
+      "marks": "w",
+      "complete": true,
+      "removeExpr": "",
+      "appendDateFormat": "",
+      "registerCommand": true,
+      "useContextMenu": false,
+      "collection": {
+        "areaHeading": "## Log",
+        "removeCheckbox": false
+      }
+    },
+    "Финансы": {
+      "name": "Финансы",
+      "marks": "S",
+      "complete": true,
+      "removeExpr": "",
+      "appendDateFormat": "",
+      "registerCommand": true,
+      "useContextMenu": false,
+      "collection": {
+        "areaHeading": "## Log",
+        "removeCheckbox": false
+      }
+    },
+    "Комментарий": {
+      "name": "Комментарий",
+      "marks": ">",
+      "complete": true,
+      "removeExpr": "",
+      "appendDateFormat": "",
+      "registerCommand": true,
+      "useContextMenu": false,
+      "collection": {
+        "areaHeading": "## Log",
+        "removeCheckbox": false
+      }
+    },
+    "В работе": {
+      "name": "В работе",
+      "marks": "/",
+      "complete": true,
+      "removeExpr": "",
+      "appendDateFormat": "➕",
+      "registerCommand": true,
+      "useContextMenu": false,
+      "collection": {
+        "areaHeading": "## Log",
+        "removeCheckbox": false
+      }
+    },
+    "Примечание": {
+      "name": "Примечание",
+      "marks": "\"",
+      "complete": true,
+      "removeExpr": "",
+      "appendDateFormat": "",
+      "registerCommand": false,
+      "useContextMenu": false,
+      "collection": {
+        "areaHeading": "## Log",
+        "removeCheckbox": false
+      }
+    },
+    "Важно": {
+      "name": "Важно",
+      "marks": "!",
+      "complete": true,
+      "removeExpr": "",
+      "appendDateFormat": "➕",
+      "registerCommand": true,
+      "useContextMenu": false,
+      "collection": {
+        "areaHeading": "## Log",
+        "removeCheckbox": true
+      }
+    },
+    "Чек-лист": {
+      "name": "Чек-лист",
+      "marks": "-",
+      "complete": true,
+      "removeExpr": "",
+      "appendDateFormat": "",
+      "registerCommand": true,
+      "useContextMenu": false,
+      "collection": {
+        "areaHeading": "## Log",
+        "removeCheckbox": false
+      }
+    }
+  },
+  "markCycle": "",
+  "markCycleRemoveTask": false,
+  "collectionEnabled": true,
+  "previewClickModal": true,
+  "contextMenu": {
+    "markTask": true,
+    "resetTask": false,
+    "resetAllTasks": true,
+    "collectTasks": false
+  },
+  "debug": false,
+  "convertEmptyLines": false,
+  "hideNotifications": true,
+  "skipSectionMatch": "",
+  "version": {
+    "major": 1,
+    "minor": 1,
+    "patch": 10
+  }
+}

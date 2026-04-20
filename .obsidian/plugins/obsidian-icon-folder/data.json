@@ -1,0 +1,53 @@
+{
+  "settings": {
+    "migrated": 6,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 16,
+    "emojiStyle": "native",
+    "iconColor": "#ffffff",
+    "recentlyUsedIcons": [
+      "✅",
+      "🎵",
+      "🌈",
+      "🅱",
+      "📊"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": true,
+    "iconInTitleEnabled": true,
+    "iconInFrontmatterEnabled": false,
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true,
+    "iconIdentifier": ":",
+    "iconInTitlePosition": "above",
+    "iconInFrontmatterFieldName": "icon",
+    "iconColorInFrontmatterFieldName": "iconColor",
+    "iconsInLinksEnabled": true,
+    "lucideIconPackType": "native",
+    "debugMode": false,
+    "useInternalPlugins": false
+  },
+  "Нефильтрованное/Telegram/🎼 Суно-демки": "🎵",
+  "Пишу главы/Первая книга/1. Насталь.md": "📖",
+  "Пишу главы/Первая книга/2. Китобой.md": "📖",
+  "Пишу главы/Первая книга/3. Отплытие.md": "📖",
+  "Пишу главы/Первая книга/4. Таинственная лавка.md": "📖",
+  "Пишу главы/Первая книга/5. Остров туманов.md": "📖",
+  "Пишу главы/Первая книга/6. Исход.md": "📖",
+  "Пишу главы/Первая книга/7. Странник.md": "📖",
+  "Библиотека/Обложки": {
+    "iconName": "LiArrowUpLeftFromSquare",
+    "iconColor": "#ff0000"
+  },
+  "Подсказки Обсидиан/Callouts.md": "🌈",
+  "Подсказки Обсидиан/Кнопки.md": "🅱",
+  "11 Базы/Мои треки.base": "🎵",
+  "20 Ежедневник/Еженедельное расписание.md": "✅"
+}

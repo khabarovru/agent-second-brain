@@ -1,0 +1,862 @@
+/* ─────────────────────────────────────────────────── */
+/* Habit Tracker Styles */
+/* ─────────────────────────────────────────────────── */
+
+/* Import dashboard fonts */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+/* Habit Tracker Variables - FIXED FOR STYLE SETTINGS */
+:root {
+  /* Colors - Dark dashboard theme */
+  --habit-bg: #0d0d16;
+  --habit-bg-ticked: linear-gradient(135deg, #8a2be2, #4fc3f7);
+  --habit-icon-ticked: #ffffff;
+  --habit-border-width: 1px;
+  --habit-border-color: #1a1a2a;
+  --habit-row-bg-hover: #1a1a2a;
+  --habit-weekend-bg-color: #1a1a3a;
+  --habit-names-bg-color: #0d0d16;
+  --habit-container-hover: #151520;
+  --habit-tick-hover: #2a1a3a;
+  --habit-name-color: #4fc3f7;
+  --habit-header-hover-bg: #8a2be2;
+  --habit-header-hover-color: #ffffff;
+
+  /* Typography */
+  --habit-header-font-size: 11px;
+  --habit-name-font-size: 13px;
+
+  /* Cell dimensions */
+  --habit-cell-width: 28px;
+  --habit-cell-height: 36px;
+  --habit-name-max-width: 200px;
+  --habit-name-padding: 12px;
+
+  /* Tick size */
+  --habit-tick-size: 20px;
+
+  /* Border radius */
+  --habit-streak-radius: 4px;
+  --habit-tooltip-radius: 4px;
+
+  /* Spacing */
+  --habit-streak-padding: 4px;
+  --habit-tooltip-padding: 6px 10px;
+
+  /* Action Bar Colors */
+  --habit-action-bar-bg: #1a1a2a;
+  --habit-action-bar-border: #2a2a3a;
+  --habit-action-bar-title-color: #4fc3f7;
+  --habit-action-bar-btn-bg: linear-gradient(135deg, #2a1a3a, #1a2a3a);
+  --habit-action-bar-btn-border: #2a2a3a;
+  --habit-action-bar-btn-color: #c5d0e6;
+  --habit-action-bar-btn-hover-bg: linear-gradient(135deg, #8a2be2, #4fc3f7);
+  --habit-action-bar-btn-hover-border: #4fc3f7;
+  --habit-action-bar-btn-hover-color: #ffffff;
+
+  /* Weekend colors */
+  --habit-weekend-text-color: #8a2be2;
+
+  /* Scrollbar */
+  --habit-scrollbar-bg: #1a1a2a;
+  --habit-scrollbar-thumb: linear-gradient(135deg, #8a2be2, #4fc3f7);
+  --habit-scrollbar-thumb-hover: linear-gradient(135deg, #7925c7, #3da5d6);
+
+  /* Row-specific colors - для 15 строк */
+  --habit-row-1-color: linear-gradient(135deg, #8a2be2, #4fc3f7);
+  --habit-row-2-color: linear-gradient(135deg, #4CAF50, #8BC34A);
+  --habit-row-3-color: linear-gradient(135deg, #FF9800, #FF5722);
+  --habit-row-4-color: linear-gradient(135deg, #2196F3, #03A9F4);
+  --habit-row-5-color: linear-gradient(135deg, #9C27B0, #E91E63);
+  --habit-row-6-color: linear-gradient(135deg, #00BCD4, #009688);
+  --habit-row-7-color: linear-gradient(135deg, #FFEB3B, #FFC107);
+  --habit-row-8-color: linear-gradient(135deg, #795548, #607D8B);
+  --habit-row-9-color: linear-gradient(135deg, #E91E63, #F44336);
+  --habit-row-10-color: linear-gradient(135deg, #3F51B5, #673AB7);
+  --habit-row-11-color: linear-gradient(135deg, #00E676, #00C853);
+  --habit-row-12-color: linear-gradient(135deg, #FF6D00, #FF9100);
+  --habit-row-13-color: linear-gradient(135deg, #2962FF, #304FFE);
+  --habit-row-14-color: linear-gradient(135deg, #AA00FF, #6200EA);
+  --habit-row-15-color: linear-gradient(135deg, #00BFA5, #00B8D4);
+}
+
+/* Main habit tracker container */
+.cm-preview-code-block.markdown-rendered:has(.block-language-habittracker) {
+  padding: 0;
+  font-family: 'Rajdhani', sans-serif;
+  position: relative;
+  background: var(--habit-bg);
+  border-radius: 8px;
+}
+
+.cm-lang-habittracker {
+  position: relative;
+}
+
+.cm-preview-code-block.markdown-rendered:has(.block-language-habittracker):hover {
+  background-color: var(--habit-container-hover);
+}
+
+.cm-preview-code-block.markdown-rendered:has(.block-language-habittracker):hover .edit-block-button {
+  display: none !important;
+}
+
+.block-language-habittracker {
+  border: var(--habit-border-width) solid var(--habit-border-color);
+  border-radius: 8px;
+  overflow-x: scroll;
+  width: fit-content;
+  max-width: 100%;
+  background: var(--habit-bg);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.habit-tracker {
+  display: grid;
+  grid-template-columns: 1fr repeat(var(--date-columns), var(--habit-cell-width));
+  width: fit-content;
+  background-color: var(--habit-bg);
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.is-readable-line-width .habit-tracker--match-line-length {
+  width: var(--file-line-width);
+}
+
+.habit-tracker__row {
+  display: contents;
+}
+
+.habit-tracker__row:has(.habit-tracker__cell:hover) > .habit-tracker__cell {
+  background-color: var(--habit-row-bg-hover);
+}
+
+.habit-tracker__cell {
+  width: var(--habit-cell-width);
+  font-size: var(--habit-header-font-size);
+  height: var(--habit-cell-height);
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-normal);
+  font-weight: 500;
+}
+
+.habit-tracker__cell:not(:last-child) {
+  border-right: var(--habit-border-width) solid var(--habit-border-color);
+}
+
+.habit-tracker__row:not(.habit-tracker__header) .habit-tracker__cell {
+  border-top: var(--habit-border-width) solid var(--habit-border-color);
+}
+
+/* Habit names styling */
+.habit-tracker__cell--name {
+  padding: 0 var(--habit-name-padding);
+  width: 100%;
+  max-width: var(--habit-name-max-width);
+  justify-content: start;
+  position: sticky;
+  left: 0;
+  z-index: 10;
+  background-color: var(--habit-names-bg-color);
+  font-family: 'Orbitron', monospace;
+  font-weight: 600;
+}
+
+.habit-tracker__cell--name .internal-link {
+  color: var(--habit-name-color);
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: fit-content;
+  display: inline-block;
+  font-size: var(--habit-name-font-size);
+  text-decoration: none;
+  font-family: 'Orbitron', monospace;
+  letter-spacing: 0.3px;
+}
+
+.is-readable-line-width .habit-tracker--match-line-length .habit-tracker__cell--name {
+  max-width: 100%;
+}
+
+/* Weekend highlighting */
+.habit-tracker__cell--saturday,
+.habit-tracker__cell--sunday {
+  background-color: var(--habit-weekend-bg-color);
+  font-weight: bold;
+  color: var(--habit-weekend-text-color);
+}
+
+/* Header styling */
+.habit-tracker__header .habit-tracker__cell[data-pretty-date] {
+  position: relative;
+  font-family: 'Orbitron', monospace;
+  font-weight: 600;
+  color: var(--habit-name-color);
+  background: var(--color-base-20);
+}
+
+.habit-tracker__header .habit-tracker__cell[data-pretty-date]:hover {
+  cursor: pointer;
+  background: var(--habit-header-hover-bg);
+  color: var(--habit-header-hover-color);
+  border-top-left-radius: var(--habit-tooltip-radius);
+  border-top-right-radius: var(--habit-tooltip-radius);
+  transform: translateY(-1px);
+  transition: all 0.3s ease;
+}
+
+.habit-tracker__header .habit-tracker__cell[data-pretty-date]:hover:after {
+  background: var(--habit-header-hover-bg);
+  color: var(--habit-header-hover-color);
+  content: attr(data-pretty-date);
+  left: 50%;
+  padding: var(--habit-tooltip-padding);
+  position: absolute;
+  top: 100%;
+  white-space: nowrap;
+  transform: translateX(-50%);
+  border-radius: var(--habit-tooltip-radius);
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 500;
+  z-index: 20;
+}
+
+.habit-tracker__header .habit-tracker__cell[data-pretty-date]:last-child:hover:after {
+  left: auto;
+  right: 0;
+  transform: none;
+  border-top-right-radius: 0;
+}
+
+/* Habit tick styling */
+.habit-tick {
+  line-height: 0;
+  text-align: center;
+  width: var(--habit-cell-width);
+  max-width: var(--habit-cell-width);
+  min-width: var(--habit-cell-width);
+  transition: all 0.3s ease;
+}
+
+.habit-tick:hover {
+  cursor: pointer;
+  background-color: var(--habit-tick-hover) !important;
+  transform: scale(1.1);
+}
+
+.habit-tick--ticked:before {
+  background: var(--habit-bg-ticked);
+  content: '';
+  display: inline-block;
+  height: var(--habit-tick-size);
+  width: 100%;
+  transition: all 0.3s ease;
+  line-height: var(--habit-tick-size);
+  color: var(--habit-icon-ticked);
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(138, 43, 226, 0.3);
+}
+
+/* Streak styling */
+.habit-tick--streak-start {
+  padding-left: var(--habit-streak-padding);
+}
+
+.habit-tick--streak-start:before {
+  border-top-left-radius: var(--habit-streak-radius);
+  border-bottom-left-radius: var(--habit-streak-radius);
+}
+
+.habit-tick--streak-end {
+  padding-right: var(--habit-streak-padding);
+}
+
+.habit-tick--streak-end:before {
+  border-top-right-radius: var(--habit-streak-radius);
+  border-bottom-right-radius: var(--habit-streak-radius);
+}
+
+.habit-tick--streak + .habit-tick--streak-end:before {
+  content: attr(streak);
+  font-weight: bold;
+  font-family: 'Orbitron', monospace;
+  font-size: 10px;
+}
+
+/* Action bar for habit tracker code blocks - Dashboard style */
+.ht21-action-bar {
+  display: flex;
+  position: absolute;
+  top: 90%;
+  left: var(--habit-name-padding);
+  right: var(--habit-name-padding);
+  background: var(--habit-action-bar-bg);
+  border: 1px solid var(--habit-action-bar-border);
+  border-radius: 0 0 6px 6px;
+  padding: var(--habit-name-padding);
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  font-size: 12px;
+  opacity: 0;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  pointer-events: none;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+/* Show action bar on hover */
+.markdown-source-view.mod-cm6 .cm-content > .cm-lang-habittracker:hover {
+  overflow: visible;
+  contain: none !important;
+}
+
+.cm-lang-habittracker:hover .ht21-action-bar,
+.cm-preview-code-block.markdown-rendered:has(.block-language-habittracker):hover .ht21-action-bar {
+  opacity: 1;
+  pointer-events: all;
+  top: 100%;
+}
+
+.ht21-action-bar__title {
+  font-weight: 600;
+  color: var(--habit-action-bar-title-color);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-family: 'Orbitron', monospace;
+}
+
+.ht21-update-dot {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  width: 8px;
+  height: 8px;
+  background: var(--color-purple);
+  border-radius: 50%;
+  border: 1px solid var(--background-secondary);
+}
+
+.ht21-action-bar__buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.ht21-action-bar__btn {
+  background: var(--habit-action-bar-btn-bg);
+  border: 1px solid var(--habit-action-bar-btn-border);
+  border-radius: 4px;
+  padding: 6px 12px;
+  font-size: 11px;
+  cursor: pointer;
+  color: var(--habit-action-bar-btn-color);
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 500;
+}
+
+.ht21-btn-text {
+  font-size: 11px;
+}
+
+.ht21-action-bar__btn .svg-icon {
+  width: 14px;
+  height: 14px;
+}
+
+.ht21-action-bar__btn:hover {
+  background: var(--habit-action-bar-btn-hover-bg);
+  border-color: var(--habit-action-bar-btn-hover-border);
+  color: var(--habit-action-bar-btn-hover-color);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(79, 195, 247, 0.2);
+}
+
+.ht21-action-bar__btn:active {
+  background: var(--habit-action-bar-btn-hover-bg);
+  transform: translateY(0);
+}
+
+/* Custom scrollbar for habit tracker */
+.block-language-habittracker::-webkit-scrollbar {
+  height: 8px;
+  background: var(--habit-scrollbar-bg);
+  border-radius: 0 0 8px 8px;
+}
+
+.block-language-habittracker::-webkit-scrollbar-thumb {
+  background: var(--habit-scrollbar-thumb);
+  border-radius: 4px;
+}
+
+.block-language-habittracker::-webkit-scrollbar-thumb:hover {
+  background: var(--habit-scrollbar-thumb-hover);
+}
+
+/* Animation for new habits */
+.habit-tracker__row:not(.habit-tracker__header) {
+  animation: slideIn 0.5s ease-out;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Row-based coloring system - для 15 строк */
+.habit-tracker__row:nth-child(2) .habit-tick--ticked:before {
+  background: var(--habit-row-1-color);
+}
+
+.habit-tracker__row:nth-child(3) .habit-tick--ticked:before {
+  background: var(--habit-row-2-color);
+}
+
+.habit-tracker__row:nth-child(4) .habit-tick--ticked:before {
+  background: var(--habit-row-3-color);
+}
+
+.habit-tracker__row:nth-child(5) .habit-tick--ticked:before {
+  background: var(--habit-row-4-color);
+}
+
+.habit-tracker__row:nth-child(6) .habit-tick--ticked:before {
+  background: var(--habit-row-5-color);
+}
+
+.habit-tracker__row:nth-child(7) .habit-tick--ticked:before {
+  background: var(--habit-row-6-color);
+}
+
+.habit-tracker__row:nth-child(8) .habit-tick--ticked:before {
+  background: var(--habit-row-7-color);
+}
+
+.habit-tracker__row:nth-child(9) .habit-tick--ticked:before {
+  background: var(--habit-row-8-color);
+}
+
+.habit-tracker__row:nth-child(10) .habit-tick--ticked:before {
+  background: var(--habit-row-9-color);
+}
+
+.habit-tracker__row:nth-child(11) .habit-tick--ticked:before {
+  background: var(--habit-row-10-color);
+}
+
+.habit-tracker__row:nth-child(12) .habit-tick--ticked:before {
+  background: var(--habit-row-11-color);
+}
+
+.habit-tracker__row:nth-child(13) .habit-tick--ticked:before {
+  background: var(--habit-row-12-color);
+}
+
+.habit-tracker__row:nth-child(14) .habit-tick--ticked:before {
+  background: var(--habit-row-13-color);
+}
+
+.habit-tracker__row:nth-child(15) .habit-tick--ticked:before {
+  background: var(--habit-row-14-color);
+}
+
+.habit-tracker__row:nth-child(16) .habit-tick--ticked:before {
+  background: var(--habit-row-15-color);
+}
+
+/* ─────────────────────────────────────────────────── */
+/* Styles Settings for Habit Tracker - UPDATED FOR ROW COLORS */
+/* ─────────────────────────────────────────────────── */
+
+/* @settings
+name: Habit Tracker
+id: habit-tracker
+settings:
+    -
+        id: colors
+        title: Colors
+        type: heading
+        level: 1
+        collapsed: true
+    -
+        id: background-colors
+        title: Background Colors
+        type: heading
+        level: 2
+        collapsed: true
+    -
+        id: habit-bg
+        title: Main Background
+        type: variable-color
+        format: hex
+        default: '#0d0d16'
+    -
+        id: habit-names-bg-color
+        title: Names Column Background
+        type: variable-color
+        format: hex
+        default: '#0d0d16'
+    -
+        id: habit-weekend-bg-color
+        title: Weekend Background
+        type: variable-color
+        format: hex
+        default: '#1a1a3a'
+    -
+        id: text-colors
+        title: Text Colors
+        type: heading
+        level: 2
+        collapsed: true
+    -
+        id: habit-name-color
+        title: Habit Name Color
+        type: variable-color
+        format: hex
+        default: '#4fc3f7'
+    -
+        id: habit-weekend-text-color
+        title: Weekend Text Color
+        type: variable-color
+        format: hex
+        default: '#8a2be2'
+    -
+        id: habit-icon-ticked
+        title: Ticked Icon Color
+        type: variable-color
+        format: hex
+        default: '#ffffff'
+    -
+        id: border-colors
+        title: Border Colors
+        type: heading
+        level: 2
+        collapsed: true
+    -
+        id: habit-border-color
+        title: Border Color
+        type: variable-color
+        format: hex
+        default: '#1a1a2a'
+    -
+        id: hover-colors
+        title: Hover Colors
+        type: heading
+        level: 2
+        collapsed: true
+    -
+        id: habit-row-bg-hover
+        title: Row Hover Background
+        type: variable-color
+        format: hex
+        default: '#1a1a2a'
+    -
+        id: habit-container-hover
+        title: Container Hover Background
+        type: variable-color
+        format: hex
+        default: '#151520'
+    -
+        id: habit-tick-hover
+        title: Tick Hover Background
+        type: variable-color
+        format: hex
+        default: '#2a1a3a'
+    -
+        id: habit-header-hover-bg
+        title: Header Hover Background
+        type: variable-color
+        format: hex
+        default: '#8a2be2'
+    -
+        id: habit-header-hover-color
+        title: Header Hover Text Color
+        type: variable-color
+        format: hex
+        default: '#ffffff'
+    -
+        id: gradients
+        title: Gradients
+        type: heading
+        level: 2
+        collapsed: true
+    -
+        id: habit-bg-ticked
+        title: Default Ticked Habit Gradient
+        type: variable-text
+        default: 'linear-gradient(135deg, #8a2be2, #4fc3f7)'
+    -
+        id: habit-scrollbar-thumb
+        title: Scrollbar Thumb Gradient
+        type: variable-text
+        default: 'linear-gradient(135deg, #8a2be2, #4fc3f7)'
+    -
+        id: habit-scrollbar-thumb-hover
+        title: Scrollbar Thumb Hover Gradient
+        type: variable-text
+        default: 'linear-gradient(135deg, #7925c7, #3da5d6)'
+    -
+        id: action-bar
+        title: Action Bar
+        type: heading
+        level: 1
+        collapsed: true
+    -
+        id: habit-action-bar-bg
+        title: Action Bar Background
+        type: variable-color
+        format: hex
+        default: '#1a1a2a'
+    -
+        id: habit-action-bar-border
+        title: Action Bar Border
+        type: variable-color
+        format: hex
+        default: '#2a2a3a'
+    -
+        id: habit-action-bar-title-color
+        title: Action Bar Title Color
+        type: variable-color
+        format: hex
+        default: '#4fc3f7'
+    -
+        id: habit-action-bar-btn-bg
+        title: Button Background Gradient
+        type: variable-text
+        default: 'linear-gradient(135deg, #2a1a3a, #1a2a3a)'
+    -
+        id: habit-action-bar-btn-border
+        title: Button Border Color
+        type: variable-color
+        format: hex
+        default: '#2a2a3a'
+    -
+        id: habit-action-bar-btn-color
+        title: Button Text Color
+        type: variable-color
+        format: hex
+        default: '#c5d0e6'
+    -
+        id: habit-action-bar-btn-hover-bg
+        title: Button Hover Gradient
+        type: variable-text
+        default: 'linear-gradient(135deg, #8a2be2, #4fc3f7)'
+    -
+        id: habit-action-bar-btn-hover-border
+        title: Button Hover Border
+        type: variable-color
+        format: hex
+        default: '#4fc3f7'
+    -
+        id: habit-action-bar-btn-hover-color
+        title: Button Hover Text
+        type: variable-color
+        format: hex
+        default: '#ffffff'
+    -
+        id: typography
+        title: Typography & Sizing
+        type: heading
+        level: 1
+        collapsed: true
+    -
+        id: habit-header-font-size
+        title: Header Font Size
+        type: variable-text
+        default: '11px'
+    -
+        id: habit-name-font-size
+        title: Name Font Size
+        type: variable-text
+        default: '13px'
+    -
+        id: dimensions
+        title: Dimensions
+        type: heading
+        level: 2
+        collapsed: true
+    -
+        id: habit-cell-width
+        title: Cell Width
+        type: variable-text
+        default: '28px'
+    -
+        id: habit-cell-height
+        title: Cell Height
+        type: variable-text
+        default: '36px'
+    -
+        id: habit-name-max-width
+        title: Name Column Max Width
+        type: variable-text
+        default: '200px'
+    -
+        id: habit-name-padding
+        title: Name Padding
+        type: variable-text
+        default: '12px'
+    -
+        id: habit-tick-size
+        title: Tick Size
+        type: variable-text
+        default: '20px'
+    -
+        id: habit-border-width
+        title: Border Width
+        type: variable-text
+        default: '1px'
+    -
+        id: spacing
+        title: Spacing
+        type: heading
+        level: 2
+        collapsed: true
+    -
+        id: habit-streak-padding
+        title: Streak Padding
+        type: variable-text
+        default: '4px'
+    -
+        id: habit-tooltip-padding
+        title: Tooltip Padding
+        type: variable-text
+        default: '6px 10px'
+    -
+        id: border-radius
+        title: Border Radius
+        type: heading
+        level: 2
+        collapsed: true
+    -
+        id: habit-streak-radius
+        title: Streak Radius
+        type: variable-text
+        default: '4px'
+    -
+        id: habit-tooltip-radius
+        title: Tooltip Radius
+        type: variable-text
+        default: '4px'
+    -
+        id: scrollbar
+        title: Scrollbar
+        type: heading
+        level: 1
+        collapsed: true
+    -
+        id: habit-scrollbar-bg
+        title: Scrollbar Background
+        type: variable-color
+        format: hex
+        default: '#1a1a2a'
+    -
+        id: row-colors
+        title: Row Colors (для отметок привычек)
+        type: heading
+        level: 1
+        collapsed: false
+    -
+        id: habit-row-1-color
+        title: "Строка 1 - Цвет отметки"
+        description: Градиент для выполненных привычек в первой строке
+        type: variable-text
+        default: 'linear-gradient(135deg, #8a2be2, #4fc3f7)'
+    -
+        id: habit-row-2-color
+        title: "Строка 2 - Цвет отметки"
+        description: Градиент для выполненных привычек во второй строке
+        type: variable-text
+        default: 'linear-gradient(135deg, #4CAF50, #8BC34A)'
+    -
+        id: habit-row-3-color
+        title: "Строка 3 - Цвет отметки"
+        description: Градиент для выполненных привычек в третьей строке
+        type: variable-text
+        default: 'linear-gradient(135deg, #FF9800, #FF5722)'
+    -
+        id: habit-row-4-color
+        title: "Строка 4 - Цвет отметки"
+        description: Градиент для выполненных привычек в четвертой строке
+        type: variable-text
+        default: 'linear-gradient(135deg, #2196F3, #03A9F4)'
+    -
+        id: habit-row-5-color
+        title: "Строка 5 - Цвет отметки"
+        description: Градиент для выполненных привычек в пятой строке
+        type: variable-text
+        default: 'linear-gradient(135deg, #9C27B0, #E91E63)'
+    -
+        id: habit-row-6-color
+        title: "Строка 6 - Цвет отметки"
+        description: Градиент для выполненных привычек в шестой строке
+        type: variable-text
+        default: 'linear-gradient(135deg, #00BCD4, #009688)'
+    -
+        id: habit-row-7-color
+        title: "Строка 7 - Цвет отметки"
+        description: Градиент для выполненных привычек в седьмой строке
+        type: variable-text
+        default: 'linear-gradient(135deg, #FFEB3B, #FFC107)'
+    -
+        id: habit-row-8-color
+        title: "Строка 8 - Цвет отметки"
+        description: Градиент для выполненных привычек в восьмой строке
+        type: variable-text
+        default: 'linear-gradient(135deg, #795548, #607D8B)'
+    -
+        id: habit-row-9-color
+        title: "Строка 9 - Цвет отметки"
+        description: Градиент для выполненных привычек в девятой строке
+        type: variable-text
+        default: 'linear-gradient(135deg, #E91E63, #F44336)'
+    -
+        id: habit-row-10-color
+        title: "Строка 10 - Цвет отметки"
+        description: Градиент для выполненных привычек в десятой строке
+        type: variable-text
+        default: 'linear-gradient(135deg, #3F51B5, #673AB7)'
+    -
+        id: habit-row-11-color
+        title: "Строка 11 - Цвет отметки"
+        description: Градиент для выполненных привычек в одиннадцатой строке
+        type: variable-text
+        default: 'linear-gradient(135deg, #00E676, #00C853)'
+    -
+        id: habit-row-12-color
+        title: "Строка 12 - Цвет отметки"
+        description: Градиент для выполненных привычек в двенадцатой строке
+        type: variable-text
+        default: 'linear-gradient(135deg, #FF6D00, #FF9100)'
+    -
+        id: habit-row-13-color
+        title: "Строка 13 - Цвет отметки"
+        description: Градиент для выполненных привычек в тринадцатой строке
+        type: variable-text
+        default: 'linear-gradient(135deg, #2962FF, #304FFE)'
+    -
+        id: habit-row-14-color
+        title: "Строка 14 - Цвет отметки"
+        description: Градиент для выполненных привычек в четырнадцатой строке
+        type: variable-text
+        default: 'linear-gradient(135deg, #AA00FF, #6200EA)'
+    -
+        id: habit-row-15-color
+        title: "Строка 15 - Цвет отметки"
+        description: Градиент для выполненных привычек в пятнадцатой строке
+        type: variable-text
+        default: 'linear-gradient(135deg, #00BFA5, #00B8D4)'
+*/

@@ -1,0 +1,362 @@
+{
+  "workspaces": {
+    "БАЗА": {
+      "main": {
+        "id": "5324373015726ba8",
+        "type": "split",
+        "children": [
+          {
+            "id": "bed4aab5ab33720b",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "43d1c0455afd5a7a",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "70 Проекты/💎 Obsidian/Руководство/📄 Инструкции/Твоя новая жизнь начинается здесь!.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "Твоя новая жизнь начинается здесь!"
+                }
+              },
+              {
+                "id": "163f1d04835c798d",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "70 Проекты/💎 Obsidian/Руководство/📄 Инструкции/Первые шаги — настройка рабочего пространства- 2025-10-26.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Первые шаги — настройка рабочего пространства- 2025-10-26"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "d916950cce310a1d",
+        "type": "split",
+        "children": [
+          {
+            "id": "fc4fa86590b85aa6",
+            "type": "tabs",
+            "dimension": 66.13704071499504,
+            "children": [
+              {
+                "id": "90c4b9e289f979e5",
+                "type": "leaf",
+                "state": {
+                  "type": "VIEW_TYPE_LONGFORM_EXPLORER",
+                  "state": {},
+                  "icon": "longform",
+                  "title": "Longform"
+                }
+              },
+              {
+                "id": "c665a3ba6646e6be",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "10 Организация Обсидиан/Подсказки/Кнопки.md",
+                    "followCursor": false,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-list",
+                  "title": "Структура Кнопки"
+                }
+              },
+              {
+                "id": "c97ce61b0bf0711a",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": true,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-archive",
+                  "title": "Все свойства"
+                }
+              },
+              {
+                "id": "c7c0c293129885d8",
+                "type": "leaf",
+                "state": {
+                  "type": "footnotes",
+                  "state": {
+                    "file": "10 Организация Обсидиан/Подсказки/Кнопки.md"
+                  },
+                  "icon": "lucide-file-signature",
+                  "title": "Сноски"
+                }
+              },
+              {
+                "id": "3b2911b1af11700d",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true,
+                    "showSearch": true,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Теги"
+                }
+              },
+              {
+                "id": "fa7dbf320e703501",
+                "type": "leaf",
+                "state": {
+                  "type": "tagfolder-view",
+                  "state": {},
+                  "icon": "stacked-levels",
+                  "title": "Tag Folder"
+                }
+              }
+            ]
+          },
+          {
+            "id": "eec6393aad4e2e4a",
+            "type": "tabs",
+            "dimension": 33.86295928500497,
+            "children": [
+              {
+                "id": "b484a75ae0f817a5",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {},
+                  "icon": "calendar-with-checkmark",
+                  "title": "Calendar"
+                }
+              },
+              {
+                "id": "46c3039d6330d5f9",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Закладки"
+                }
+              },
+              {
+                "id": "b012713d882c687f",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "10 Организация Обсидиан/Подсказки/Callouts.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "Исходящие ссылки из Callouts"
+                }
+              },
+              {
+                "id": "cd6201f469b75f8b",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "10 Организация Обсидиан/Подсказки/Callouts.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": true,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Обратные ссылки для Callouts"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 353.5
+      },
+      "right": {
+        "id": "eeebface02044ca3",
+        "type": "split",
+        "children": [
+          {
+            "id": "86d7ea86751905e9",
+            "type": "tabs",
+            "dimension": 78.66666666666666,
+            "children": [
+              {
+                "id": "bc5f2daf0e32bd74",
+                "type": "leaf",
+                "state": {
+                  "type": "file-tree-view",
+                  "state": {},
+                  "icon": "sheets-in-box",
+                  "title": "File Tree"
+                }
+              },
+              {
+                "id": "bf826ac0a645446d",
+                "type": "leaf",
+                "state": {
+                  "type": "file-properties",
+                  "state": {
+                    "file": "70 Проекты/💎 Obsidian/Руководство/📄 Инструкции/Твоя новая жизнь начинается здесь!.md"
+                  },
+                  "icon": "lucide-info",
+                  "title": "Свойства файла для Твоя новая жизнь начинается здесь!"
+                }
+              },
+              {
+                "id": "0125ee516959e709",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "10 Организация Обсидиан/Подсказки/Callouts.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Callouts"
+                }
+              },
+              {
+                "id": "8c516ca26f5c525f",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "10 Организация Обсидиан/Подсказки/Кнопки.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Кнопки"
+                }
+              }
+            ]
+          },
+          {
+            "id": "bfc8f2d069b996b0",
+            "type": "tabs",
+            "dimension": 21.333333333333336,
+            "children": [
+              {
+                "id": "b271074078abbfaf",
+                "type": "leaf",
+                "state": {
+                  "type": "netclip-home-tab-view",
+                  "state": {},
+                  "icon": "home",
+                  "title": "Home"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 346.5
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "switcher:Меню быстрого перехода": false,
+          "graph:Граф": false,
+          "canvas:Создать новый холст": false,
+          "bases:Создать новую базу": false,
+          "daily-notes:Сегодняшняя заметка": false,
+          "templates:Вставить шаблон": false,
+          "command-palette:Открыть палитру команд": false,
+          "audio-recorder:Начать/остановить запись": false,
+          "workspaces:Пространства": false,
+          "callout-manager:Insert Callout": false,
+          "cmdr:Быстрая заметка": false,
+          "cmdr:Граф": false,
+          "cmdr:Omnisearch (Alt+O)": false,
+          "cmdr:Быстрое создание заметки (Alt+Q)": false,
+          "cmdr:Вставить шаблон (Alt+H)": false,
+          "cmdr:Новая база (Shift+Alt+B)": false,
+          "cmdr:Новая доска (Alt+Shift+D))": false,
+          "cmdr:Новый холст (Alt+Shift+H))": false,
+          "obsidian-excalidraw-plugin:Создать новый чертеж": false,
+          "cmdr:Открыть Commander (Alt+C)": false,
+          "cmdr:Dashboard (Ctrl+Alt+D)": false,
+          "obsidian-projects:Open projects": false,
+          "templater-obsidian:Templater": false,
+          "file-tree-alternative:File Tree Alternative Plugin": false,
+          "dashboard-navigator:Open dashboard navigator": false,
+          "quickadd:QuickAdd": false,
+          "omnisearch:Omnisearch": false,
+          "net-clip:NetClip": false,
+          "cmdr:Скрыть все панели (Alt+X)": false,
+          "cmdr:Скрыть статус-бар (Ctrl+`)": false,
+          "obsidian-kanban:Создать новую доску": false,
+          "iconic:Открыть свод правил": false,
+          "periodic-notes:Open today": false
+        }
+      },
+      "active": "43d1c0455afd5a7a",
+      "mtime": "2025-11-15T07:34:16+07:00"
+    }
+  },
+  "active": "БАЗА"
+}

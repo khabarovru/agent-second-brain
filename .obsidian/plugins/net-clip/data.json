@@ -1,0 +1,116 @@
+{
+  "viewPosition": "default",
+  "defaultFolderName": "Web Clipper",
+  "parentFolderPath": "30 Нефильтрованное",
+  "defaultWebUrl": "https://google.com",
+  "searchEngine": "youtube",
+  "geminiModel": "gemini-2.5-pro",
+  "categories": [
+    "Obsidian",
+    "YouTube",
+    "Избранное",
+    "Articles",
+    "Research",
+    "Tech"
+  ],
+  "categoryIcons": {},
+  "enableCorsProxy": false,
+  "adBlock": {
+    "enabled": true
+  },
+  "privateMode": true,
+  "geminiApiKey": "",
+  "enableAI": false,
+  "prompts": [
+    {
+      "name": "Translate Content",
+      "prompt": "Translate the following ${article} to ${target_lang}",
+      "enabled": false,
+      "variables": {
+        "target_lang": [
+          "Japanese",
+          "English",
+          "Spanish",
+          "French",
+          "German",
+          "Chinese"
+        ]
+      }
+    },
+    {
+      "name": "Summarize Content",
+      "prompt": "Summarize ${article} in ${style} style. Keep the summary ${length}.",
+      "enabled": false,
+      "variables": {
+        "style": [
+          "concise",
+          "detailed",
+          "bullet points",
+          "academic"
+        ],
+        "length": [
+          "short (2-3 sentences)",
+          "medium (1 paragraph)",
+          "long (2-3 paragraphs)"
+        ]
+      }
+    },
+    {
+      "name": "Format as Note",
+      "prompt": "Convert ${article} into a structured note with headings, bullet points, and key takeaways. Use ${format} formatting style.",
+      "enabled": false,
+      "variables": {
+        "format": [
+          "Academic",
+          "Meeting Notes",
+          "Study Notes"
+        ]
+      }
+    }
+  ],
+  "defaultSaveLocations": {
+    "defaultLocation": "30 Нефильтрованное/Web Clipper",
+    "domainMappings": {}
+  },
+  "cardDisplay": {
+    "showDescription": true,
+    "showAuthor": true,
+    "showDate": true,
+    "showDomain": true,
+    "showThumbnail": true
+  },
+  "replaceTabHome": false,
+  "shortcuts": [
+    {
+      "id": "1743817473488",
+      "name": "",
+      "url": "https://github.com/Elhary/Obsidian-NetClip",
+      "favicon": "https://www.google.com/s2/favicons?domain=github.com&sz=128"
+    },
+    {
+      "id": "1743817473488",
+      "name": "",
+      "url": "https://youtube.com",
+      "favicon": "https://www.google.com/s2/favicons?domain=youtube.com&sz=128"
+    },
+    {
+      "id": "1743817473488",
+      "name": "",
+      "url": "https://www.reddit.com/r/ObsidianMD/",
+      "favicon": "https://www.google.com/s2/favicons?domain=reddit.com&sz=128"
+    },
+    {
+      "id": "1743817473488",
+      "name": "",
+      "url": "https://forum.obsidian.md/",
+      "favicon": "https://www.google.com/s2/favicons?domain=obsidian.md&sz=128"
+    }
+  ],
+  "showClock": true,
+  "homeTab": {
+    "showRecentFiles": true,
+    "showSavedArticles": true,
+    "backgroundImage": ""
+  },
+  "keepOriginalContent": false
+}

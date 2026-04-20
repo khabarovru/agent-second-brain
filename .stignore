@@ -1,0 +1,50 @@
+# Syncthing ignore patterns для vault
+# Цель: Синхронизация заметок (ПК→Сервер) + Skills (Сервер→ПК)
+
+# =====ИГНОРИРОВАТЬ НА ОБЕИХ СТОРОНАХ=====
+
+# Git (только сервер работает с GitHub)
+.git/
+.gitignore
+
+# Временные файлы
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
+*.bak
+~$*
+
+# Obsidian workspace (персональный для каждого устройства)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/workspace.json.bak*
+.obsidian/cache/
+.obsidian/graph.json
+
+# Syncthing служебные
+.stfolder/
+.stversions/
+.stignore
+
+# Автогенерируемые файлы (не синхронизировать - пересоздаются на каждом устройстве)
+.graph/
+.sessions/
+
+# =====ПРИМЕЧАНИЯ=====
+#
+# 1. Syncthing тип: sendreceive (двусторонний)
+#    - Конфликты разрешаются автоматически (создаётся .sync-conflict файл)
+#
+# 2. Versioning: staggered (30 дней)
+#
+# 3. .obsidian/ синхронизируется ПОЛНОСТЬЮ кроме workspace.json
+#    Настройки плагинов с n100 уходят на все устройства автоматически
+
+# Personal files
+95 Файлы/Личное*
+95 Файлы/Паспорт*
+95 Файлы/Личное. Развод/
+95 Файлы/Личное. Св-во о рождении сына/
+95 Файлы/Личное. Свидетельство о браке/
+95 Файлы/Личное. Скан расписки военкомат/

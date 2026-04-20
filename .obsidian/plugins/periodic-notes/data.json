@@ -1,0 +1,33 @@
+{
+  "showGettingStartedBanner": true,
+  "hasMigratedDailyNoteSettings": true,
+  "hasMigratedWeeklyNoteSettings": false,
+  "daily": {
+    "format": "БЛОГ YYYY-MM-DD",
+    "folder": "20 Ежедневник/Блог",
+    "template": "10 Организация Обсидиан/Шаблоны/📝 Шаблон блога.md",
+    "enabled": true
+  },
+  "weekly": {
+    "format": "gggg-[W]ww",
+    "template": "10 Организация Обсидиан/Шаблоны/📅 Шаблон еженедельной заметки.md",
+    "folder": "20 Ежедневник/Недели",
+    "enabled": true
+  },
+  "monthly": {
+    "format": "DD dd, [M]MM-YYYYMMDD",
+    "template": "",
+    "folder": "20 Ежедневник/Недели",
+    "enabled": true
+  },
+  "quarterly": {
+    "format": "",
+    "template": "",
+    "folder": ""
+  },
+  "yearly": {
+    "format": "",
+    "template": "",
+    "folder": ""
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "biggerIcons": "mobile",
+  "clickableIcons": "desktop",
+  "showAllFileIcons": false,
+  "showAllFolderIcons": false,
+  "minimalFolderIcons": true,
+  "showMarkdownTabIcons": true,
+  "showTitleIcons": true,
+  "showTagPillIcons": true,
+  "showMenuActions": true,
+  "showSuggestionIcons": true,
+  "showQuickSwitcherIcons": true,
+  "showMoveFileIcons": true,
+  "showItemName": "desktop",
+  "biggerSearchResults": "mobile",
+  "maxSearchResults": 50,
+  "colorPicker1": "list",
+  "colorPicker2": "rgb",
+  "uncolorHover": false,
+  "uncolorDrag": false,
+  "uncolorSelect": false,
+  "uncolorQuick": false,
+  "rememberDeletedItems": false,
+  "dialogState": {
+    "iconMode": false,
+    "emojiMode": true,
+    "rulePage": "file"
+  },
+  "appIcons": {},
+  "tabIcons": {
+    "VIEW_TYPE_LONGFORM_EXPLORER": {
+      "color": "green"
+    },
+    "all-properties": {
+      "color": "cyan"
+    },
+    "file-properties": {
+      "color": "pink"
+    },
+    "file-tree-view": {
+      "color": "purple"
+    },
+    "footnotes": {
+      "color": "cyan"
+    },
+    "outline": {
+      "color": "yellow"
+    },
+    "tag": {
+      "color": "red"
+    },
+    "tagfolder-view": {
+      "color": "red"
+    }
+  },
+  "fileIcons": {
+    "00 Входящие": {
+      "icon": "✏️",
+      "unsynced": [
+        "fdbdbd098760fde6",
+        "/storage/emulated/0/Documents"
+      ]
+    }
+  },
+  "bookmarkIcons": {},
+  "tagIcons": {},
+  "propertyIcons": {
+    "entries": {
+      "icon": "lucide-calendar-days"
+    },
+    "start_day": {
+      "icon": "calendar-day"
+    },
+    "undefined": {
+      "icon": "remix-ProductHuntLine"
+    },
+    "weekday": {
+      "icon": "calendar-week"
+    },
+    "Гигиена": {
+      "icon": "lucide-shower-head"
+    },
+    "Домоустройство": {
+      "icon": "remix-Home8Line"
+    },
+    "Колво_слов": {
+      "icon": "remix-QuillPenLine"
+    },
+    "Обещания": {
+      "icon": "lucide-speech"
+    },
+    "Обучение": {
+      "icon": "zoom-to-100"
+    },
+    "Отношения": {
+      "icon": "remix-Heart2Line"
+    },
+    "Продуктивность": {
+      "icon": "lucide-chart-no-axes-combined"
+    },
+    "Ребенок": {
+      "icon": "lucide-baby"
+    },
+    "Связи": {
+      "icon": "links-coming-in"
+    },
+    "Ссылки": {
+      "icon": "links-going-out"
+    },
+    "Тренировки": {
+      "icon": "remix-LineChartFill"
+    },
+    "Файлы": {
+      "icon": "lucide-file-search"
+    },
+    "Чтение": {
+      "icon": "lucide-book-open-text"
+    },
+    "Эффективность": {
+      "icon": "remix-LineChartFill"
+    }
+  },
+  "ribbonIcons": {},
+  "fileRules": [],
+  "folderRules": []
+}

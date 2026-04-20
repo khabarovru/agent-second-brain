@@ -1,0 +1,21 @@
+{
+  "deafultDarkMode": false,
+  "darkReaderSettings": {
+    "brightness": 72,
+    "contrast": 97,
+    "sepia": 19
+  },
+  "debugLogging": false,
+  "customDefaultPath": "50 Библиотека/Формат книги",
+  "epubSettings": {
+    "readingMode": "scroll",
+    "fontSize": 160
+  },
+  "annotationMarkdownSettings": {
+    "annotationModeByDefault": false,
+    "includePrefix": true,
+    "highlightHighlightedText": true,
+    "includePostfix": true
+  },
+  "annotateTvUrl": ""
+}

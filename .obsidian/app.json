@@ -1,0 +1,18 @@
+{
+  "defaultViewMode": "preview",
+  "promptDelete": false,
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "Без фильтра",
+  "attachmentFolderPath": "95 Файлы",
+  "showUnsupportedFiles": true,
+  "useMarkdownLinks": false,
+  "autoPairBrackets": true,
+  "autoPairMarkdown": true,
+  "userIgnoreFilters": [
+    "99 Сервис/",
+    "80 Ежедневные/",
+    "20 Ежедневник/"
+  ],
+  "newLinkFormat": "relative"
+}

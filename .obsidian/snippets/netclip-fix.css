@@ -1,0 +1,38 @@
+/* NetClip Horizontal Scroll Fix */
+.netclip_category_tabs {
+  display: flex;
+  gap: 1.5em;
+  width: 100%;
+  max-width: 960px;
+  overflow-x: auto !important;
+  overflow-y: hidden;
+  padding-bottom: 8px;
+  scrollbar-width: thin;
+  scrollbar-color: var(--interactive-accent) var(--background-modifier-border);
+}
+
+/* Стилизация скроллбара для Chrome, Safari, Edge */
+.netclip_category_tabs::-webkit-scrollbar {
+  height: 6px;
+}
+
+.netclip_category_tabs::-webkit-scrollbar-track {
+  background: var(--background-modifier-border);
+  border-radius: 3px;
+}
+
+.netclip_category_tabs::-webkit-scrollbar-thumb {
+  background: var(--interactive-accent);
+  border-radius: 3px;
+  transition: background 0.3s ease;
+}
+
+.netclip_category_tabs::-webkit-scrollbar-thumb:hover {
+  background: var(--interactive-accent-hover);
+}
+
+/* Плавная прокрутка и улучшенный UX */
+.netclip_category_tabs {
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}

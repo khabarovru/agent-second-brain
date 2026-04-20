@@ -1,0 +1,18 @@
+{
+  "tag": "книга_в_md",
+  "libraries": [
+    "Библиотека/Формат книги"
+  ],
+  "byDrag": true,
+  "savePath": "Библиотека/Книги в md",
+  "assetsPath": "{{savePath}}/{{bookName}}/images",
+  "granularity": 0,
+  "mocName": "{{bookName}}",
+  "mocPropertysTemplate": "Книга: {{bookName}}\nАвтор: {{author}}\n",
+  "notePropertysTemplate": "",
+  "imageFormat": "![[imagePath]]",
+  "autoOpenRightPanel": false,
+  "allbooks": false,
+  "removeDuplicateFolders": false,
+  "moreLog": false
+}

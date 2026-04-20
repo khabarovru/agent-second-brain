@@ -1,0 +1,365 @@
+{
+  "version": 2,
+  "projects": [
+    {
+      "fieldConfig": {},
+      "defaultName": "{{date:YYYY-MM-DD}}",
+      "templates": [],
+      "excludedNotes": [
+        "20 Ежедневник/Заметки/Заметки.md",
+        "10 Организация Обсидиан/Шаблоны/🗓 Шаблон ежедневной заметки.md"
+      ],
+      "isDefault": true,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "20 Ежедневник/Заметки",
+          "recursive": false
+        }
+      },
+      "newNotesFolder": "20 Ежедневник/Заметки",
+      "views": [
+        {
+          "config": {
+            "orderFields": [
+              "name",
+              "Дата_заметки",
+              "Неделя",
+              "Статус_заметки",
+              "Итог_дня",
+              "Состояние",
+              "Ресурсность",
+              "Стабильность",
+              "Самочувствие",
+              "Контроль",
+              "Дисциплина",
+              "Заметки",
+              "Колво_шагов",
+              "Тренировки",
+              "Гигиена",
+              "Продуктивность",
+              "Эффективность",
+              "Чтение",
+              "Колво_слов",
+              "Обучение",
+              "Ответственность",
+              "Обещания",
+              "Домоустройство",
+              "Ребенок",
+              "Отношения",
+              "Ссылки",
+              "Файлы"
+            ],
+            "fieldConfig": {
+              "path": {
+                "hide": true
+              },
+              "Раздел": {
+                "hide": true
+              },
+              "Пишу_мин": {
+                "hide": true
+              },
+              "Итог_дня": {
+                "pinned": false
+              },
+              "Связи": {
+                "hide": true
+              },
+              "tags": {
+                "hide": true
+              },
+              "aliases": {
+                "hide": true
+              },
+              "Рабочее_время": {
+                "hide": true
+              },
+              "Ссылки": {
+                "hide": true
+              },
+              "Файлы": {
+                "hide": true
+              }
+            }
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": [
+              {
+                "field": "Итог_дня",
+                "order": "desc",
+                "enabled": false
+              },
+              {
+                "field": "Неделя",
+                "order": "desc",
+                "enabled": true
+              },
+              {
+                "field": "Дата_заметки",
+                "order": "desc",
+                "enabled": true
+              }
+            ]
+          },
+          "id": "b01dc77c-244d-47a6-b290-58679d220f48",
+          "name": "Таблица",
+          "type": "table"
+        },
+        {
+          "config": {
+            "interval": "month"
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "6e9d4ccb-d09b-4366-b834-133bfa227ed4",
+          "name": "Календарик",
+          "type": "calendar"
+        }
+      ],
+      "id": "3408a69a-0d8e-4ccb-9d62-39b15ee232d5",
+      "name": "📆 Дэйлики"
+    },
+    {
+      "fieldConfig": {
+        "Проект": {
+          "richText": true
+        },
+        "Неделя": {
+          "richText": true
+        },
+        "Ссылки": {
+          "richText": true
+        },
+        "Сфера": {
+          "richText": true
+        },
+        "Тема": {
+          "richText": true
+        },
+        "tags": {
+          "richText": true
+        },
+        "Дата_ок": {
+          "richText": true
+        },
+        "Дедлайн": {
+          "time": true
+        },
+        "Назначено": {
+          "time": true
+        },
+        "Подзадача": {
+          "richText": true
+        }
+      },
+      "defaultName": " - {{date}}",
+      "templates": [],
+      "excludedNotes": [
+        "10 Организация Обсидиан/Шаблоны/Шаблон видео.md",
+        "10 Организация Обсидиан/Шаблоны/Шаблон - ✅ Задача.md"
+      ],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "tag",
+        "config": {
+          "tag": "#задача",
+          "hierarchy": true
+        }
+      },
+      "newNotesFolder": "20 Ежедневник/Решебник",
+      "views": [
+        {
+          "config": {
+            "interval": "month",
+            "dateField": "Дедлайн"
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": [
+              {
+                "field": "name",
+                "operator": "is-not-empty",
+                "enabled": true
+              }
+            ]
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "78448c67-84f0-4461-be3b-689e52e4cb46",
+          "name": "Календарь",
+          "type": "calendar"
+        },
+        {
+          "config": {
+            "orderFields": [
+              "name",
+              "path",
+              "Дата_заметки",
+              "Дата_ок",
+              "Дедлайн",
+              "Назначено",
+              "Неделя",
+              "Подзадача",
+              "Проект",
+              "Работа",
+              "Раздел",
+              "Связи",
+              "Ссылки",
+              "Стадия",
+              "Сфера",
+              "Тема",
+              "Файлы",
+              "Чек-лист",
+              "aliases",
+              "tags"
+            ],
+            "fieldConfig": {
+              "path": {
+                "hide": true
+              }
+            }
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "fe60ff60-d2ce-4eac-8a07-d476df566e16",
+          "name": "Table",
+          "type": "table"
+        },
+        {
+          "config": {
+            "groupByField": "Стадия",
+            "columns": {
+              "💡 Идея": {
+                "weight": 0,
+                "collapse": false
+              },
+              "🆕 Бэклог": {
+                "weight": 1,
+                "records": [
+                  "20 Ежедневник/Решебник/Введение и Обзор сборки - 2025-10-29.md",
+                  "70 Проекты/🎲 Настольная игра/Новая карточка - 2025-11-03.md",
+                  "20 Ежедневник/Решебник/Настрой сборку под себя! - 2025-10-28.md",
+                  "70 Проекты/💎 Obsidian/Настройка класса 📘 Дэйлики через плагин Metadata Menu - 2025-10-26.md",
+                  "70 Проекты/💎 Obsidian/Первые шаги — настройка рабочего пространства- 2025-10-26.md",
+                  "70 Проекты/💎 Obsidian/Создай новый проект в плагине Projects - 2025-10-26.md",
+                  "70 Проекты/💎 Obsidian/Создай свою первую заметку по книге. Читай и конспектируй! - 2025-10-26.md"
+                ]
+              }
+            }
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "5a182645-22df-4c35-88e6-252b5d918975",
+          "name": "Канбан",
+          "type": "board"
+        }
+      ],
+      "id": "26c40c27-46fa-49b0-a587-429731277901",
+      "name": "✅ РЕШЕБНИК"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [
+        "10 Организация Обсидиан/Шаблоны/Шаблон видео.md",
+        "10 Организация Обсидиан/Шаблоны/Шаблон - ✅ Задача.md"
+      ],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "tag",
+        "config": {
+          "tag": "#новый_проект",
+          "hierarchy": false
+        }
+      },
+      "newNotesFolder": "70 Проекты/Новый проект",
+      "views": [
+        {
+          "config": {},
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "a4388f8d-cb6f-4457-bc74-fbfd6c8019b9",
+          "name": "Table",
+          "type": "table"
+        },
+        {
+          "config": {
+            "interval": "month"
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "a1eb2924-8305-4462-aec2-c4b33011271c",
+          "name": "Календарь",
+          "type": "calendar"
+        }
+      ],
+      "id": "1ffb3920-7d40-4279-9042-bd752ff2a1c1",
+      "name": "Новый проект"
+    }
+  ],
+  "archives": [],
+  "preferences": {
+    "projectSizeLimit": 1000,
+    "frontmatter": {
+      "quoteStrings": "QUOTE_DOUBLE"
+    },
+    "locale": {
+      "firstDayOfWeek": "monday"
+    },
+    "commands": [],
+    "linkBehavior": "open-note"
+  }
+}
