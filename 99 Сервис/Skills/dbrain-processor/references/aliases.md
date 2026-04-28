@@ -1,8 +1,8 @@
 ---
 type: note
 last_accessed: 2026-04-17
-relevance: 0.97
-tier: active
+relevance: 0.86
+tier: warm
 ---
 # Алиасы — Система
 

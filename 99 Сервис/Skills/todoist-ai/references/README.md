@@ -3,8 +3,8 @@ type: note
 description: "Library for connecting AI agents to Todoist. Includes tools that can be integrated into LLMs, enabling them to access and modify a Todoist account on..."
 related: 
 last_accessed: 2026-03-19
-relevance: 0.91
-tier: active
+relevance: 0.43
+tier: cold
 ---
 # Todoist AI and MCP SDK
 

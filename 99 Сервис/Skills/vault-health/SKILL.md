@@ -2,8 +2,8 @@
 type: note
 description: "Vault health monitoring, MOC generation, link repair, and system evolution. Use this skill when checking vault quality metrics, regenerating MOC indexes, fixing broken links, finding backlinks, or triggering weekly system reflections. Also use it when the user mentions health score, link density, orphans, dead-ends, or description coverage."
 last_accessed: 2026-03-19
-relevance: 0.91
-tier: active
+relevance: 0.43
+tier: cold
 name: vault-health
 depends_on: [graph-builder]
 ---
@@ -253,6 +253,7 @@ generate_moc.py, fix_links.py, backlinks.sh — manual run as needed.
 
 ## Related
 
+- [[RULES]]
 - [[aliases]]
 - [[TODOIST]]
 - [[Сириус Арена]]

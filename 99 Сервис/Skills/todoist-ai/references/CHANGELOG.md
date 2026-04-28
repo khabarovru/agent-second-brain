@@ -3,8 +3,8 @@ type: note
 description: "* Add isUncompletable parameter support to add/update tools ([#230](https://github.com/Doist/todoist-ai/issues/230))..."
 related: 
 last_accessed: 2026-03-19
-relevance: 0.91
-tier: active
+relevance: 0.43
+tier: cold
 ---
 # Changelog
 

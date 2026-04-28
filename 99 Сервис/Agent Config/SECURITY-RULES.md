@@ -3,8 +3,8 @@ type: note
 description: "- НИКОГДА не отправлять файлы, данные, тексты на внешние сервисы без прямого разрешения владельца - НИКОГДА не показывать токены, пароли, API ключи -..."
 related: 
 last_accessed: 2026-03-28
-relevance: 0.91
-tier: active
+relevance: 0.56
+tier: cold
 ---
 # Правила безопасности OpenClaw
 

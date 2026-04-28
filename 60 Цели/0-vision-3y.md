@@ -3,8 +3,8 @@ type: vision
 description: "<!-- Your life direction in one sentence --> <!-- Example: \"Build meaningful technology while maintaining balance across health, relationships, and..."
 updated: YYYY-MM-DD
 last_accessed: 2026-03-07
-relevance: 0.91
-tier: active
+relevance: 0.25
+tier: cold
 horizon: 3-years
 period: 2025-2027
 ---

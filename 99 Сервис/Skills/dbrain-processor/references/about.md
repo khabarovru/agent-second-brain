@@ -2,8 +2,8 @@
 type: note
 description: "Denis Khabarov (Денис Хабаров). Специалист по лифтовому оборудованию / менеджер объектов."
 last_accessed: 2026-04-01
-relevance: 0.94
-tier: active
+relevance: 0.62
+tier: cold
 ---
 # About Denis Khabarov
 

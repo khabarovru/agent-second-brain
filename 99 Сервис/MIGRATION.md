@@ -3,8 +3,8 @@ type: note
 description: "vault/ ├── daily/ # голосовые + текст от бота ├── weekly/ # недельные дайджесты"
 related: 
 last_accessed: 2026-03-19
-relevance: 0.91
-tier: active
+relevance: 0.43
+tier: cold
 ---
 # Миграция second-brain в рабочий vault
 

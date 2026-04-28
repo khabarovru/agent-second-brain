@@ -1,8 +1,8 @@
 ---
 type: note
 last_accessed: 2026-04-09
-relevance: 0.91
-tier: active
+relevance: 0.74
+tier: warm
 ---
 # USER.md - Denis Khabarov
 

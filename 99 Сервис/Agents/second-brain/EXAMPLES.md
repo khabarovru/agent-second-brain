@@ -3,8 +3,8 @@ type: note
 description: "1. Это команда, НЕ заметка 2. Прочитать vault/20 Ежедневник/Daily Notes/2026-03-25.md 3. Посчитать записи по типам"
 related: 
 last_accessed: 2026-03-28
-relevance: 0.91
-tier: active
+relevance: 0.56
+tier: cold
 ---
 # Примеры обработки сообщений
 

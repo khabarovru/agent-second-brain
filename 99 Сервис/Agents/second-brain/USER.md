@@ -3,8 +3,8 @@ type: note
 description: "- Telegram: @khabarovru (id:258505) - Таймзона: Europe/Moscow (UTC+3)"
 related: 
 last_accessed: 2026-03-28
-relevance: 0.91
-tier: active
+relevance: 0.56
+tier: cold
 ---
 # USER.md - Профиль владельца
 

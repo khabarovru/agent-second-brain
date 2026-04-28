@@ -264,6 +264,8 @@ vault/
 
 ## Related
 
+- [[2026-04-26]]
+- [[RULES]]
 - [[2026-04-17]]
 - [[TODOIST]]
 - [[entities]]

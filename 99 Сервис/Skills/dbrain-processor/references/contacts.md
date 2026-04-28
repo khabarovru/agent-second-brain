@@ -2,8 +2,8 @@
 type: note
 description: "При поиске контакта: 1. Ищи в 70 Люди/ по имени 2. Проверяй ежедневники на недавние упоминания"
 last_accessed: 2026-04-01
-relevance: 0.91
-tier: active
+relevance: 0.62
+tier: cold
 ---
 # Contacts
 

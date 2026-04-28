@@ -3,8 +3,8 @@ type: note
 description: "Read execute results. Generate HTML report. Update MEMORY. Write observations. Log to daily."
 related: 
 last_accessed: 2026-03-19
-relevance: 0.91
-tier: active
+relevance: 0.43
+tier: cold
 ---
 # Phase 3: REFLECT
 
@@ -103,6 +103,7 @@ Orphans: {N} | Broken: {M} | Avg links: {X} | Desc: {Y}%
 
 ## Related
 
+- [[RULES]]
 - [[TODOIST]]
 - [[log]]
 - [[2026-03-19]]

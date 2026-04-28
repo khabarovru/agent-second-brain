@@ -3,8 +3,8 @@ type: note
 description: "Я работаю в изолированной сессии. Текстовый ответ в сессию НЕ доходит до Дениса."
 related: 
 last_accessed: 2026-03-28
-relevance: 0.97
-tier: active
+relevance: 0.56
+tier: cold
 ---
 # AGENTS.md - Second Brain 🧠
 

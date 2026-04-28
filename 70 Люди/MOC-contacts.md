@@ -3,8 +3,8 @@ type: note
 description: "- Бахарукова - Бурлаченко Владимир - Ковалёва Оксана"
 tags: [moc, contacts]
 last_accessed: 2026-03-11
-relevance: 0.91
-tier: active
+relevance: 0.31
+tier: cold
 ---
 
 # Контакты

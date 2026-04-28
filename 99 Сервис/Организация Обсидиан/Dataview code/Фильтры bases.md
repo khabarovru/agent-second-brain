@@ -1,8 +1,8 @@
 ---
 type: note
 last_accessed: 2025-11-06
-relevance: 0.79
-tier: warm
+relevance: 0.1
+tier: archive
 ---
 
 | this.file.hasLink(file) | поиск ссылок из текущей заметки |

@@ -3,8 +3,8 @@ type: note
 description: "1. Прочитай вчерашний дневник 2. Есть ли незакрытые задачи? 3. Проверь memory/pending-*.md - есть ли ожидающие сообщения"
 related: 
 last_accessed: 2026-03-28
-relevance: 0.91
-tier: active
+relevance: 0.56
+tier: cold
 ---
 # HEARTBEAT.md
 

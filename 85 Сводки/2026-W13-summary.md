@@ -3,8 +3,8 @@ type: weekly-summary
 description: "📅 Недельный дайджест Неделя 13: 23–29 марта 2026 (итог)"
 related: 
 last_accessed: 2026-03-29
-relevance: 0.94
-tier: active
+relevance: 0.58
+tier: cold
 date: 2026-03-29
 week: 2026-W13
 ---

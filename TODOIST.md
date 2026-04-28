@@ -6,7 +6,7 @@ tags: [sync, todoist, интеграция]
 source: system
 created: 2026-04-15
 last_accessed: 2026-04-15
-relevance: 0.94
+relevance: 0.91
 tier: active
 ---
 

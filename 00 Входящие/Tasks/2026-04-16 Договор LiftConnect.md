@@ -5,8 +5,8 @@ source: vk-voice
 priority: 2
 created: 2026-04-16 18:00
 last_accessed: 2026-04-17
-relevance: 0.97
-tier: active
+relevance: 0.86
+tier: warm
 todoist_id: "6gQ4JvVxF58w5mRQ"
 due: 2026-04-18
 ---

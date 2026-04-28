@@ -1,8 +1,8 @@
 ---
 type: note
 last_accessed: 2025-04-07
-relevance: 0.79
-tier: warm
+relevance: 0.1
+tier: archive
 Раздел: ☑️ Задачи
 limit: 20
 mapWithTag: true

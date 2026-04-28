@@ -2,8 +2,8 @@
 type: note
 description: "Все скрипты находятся в 99 Сервис/Skills/ и автоматизируют обслуживание Obsidian vault."
 last_accessed: 2026-03-20
-relevance: 0.91
-tier: active
+relevance: 0.45
+tier: cold
 ---
 # Инструкция по maintenance-скриптам vault
 

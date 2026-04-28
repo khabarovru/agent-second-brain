@@ -3,8 +3,8 @@ type: note
 description: "Агент мониторинга: автоматизации HA, диагностика, алерты"
 related: 
 last_accessed: 2026-04-09
-relevance: 0.91
-tier: active
+relevance: 0.74
+tier: warm
 ---
 # AGENTS.md - Сисадмин 🖥️
 

@@ -1,3 +1,9 @@
+---
+type: note
+last_accessed: 2026-04-24
+relevance: 0.97
+tier: active
+---
 # SOUL
 
 ## Главное правило

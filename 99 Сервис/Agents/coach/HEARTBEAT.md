@@ -3,8 +3,8 @@ type: note
 description: "1. Прочитай memory/goals.md - есть незакрытые дедлайны на сегодня/завтра? 2. Прочитай memory/habits.md - были ли провалы серий за последние 2 дня? 3..."
 related: 
 last_accessed: 2026-03-28
-relevance: 0.91
-tier: active
+relevance: 0.56
+tier: cold
 ---
 # HEARTBEAT.md
 

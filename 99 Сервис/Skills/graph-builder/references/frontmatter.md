@@ -2,8 +2,8 @@
 type: note
 description: "YAML frontmatter schema for vault files."
 last_accessed: 2026-03-19
-relevance: 0.91
-tier: active
+relevance: 0.43
+tier: cold
 ---
 # Frontmatter Schema
 
@@ -260,6 +260,7 @@ def add_related(content: str, new_links: list[str]) -> str:
 
 ## Related
 
+- [[RULES]]
 - [[SCHEMA]]
 - [[SYSTEM]]
 - [[EXAMPLES]]

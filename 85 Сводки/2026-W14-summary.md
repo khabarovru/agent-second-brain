@@ -3,8 +3,8 @@ type: note
 description: "Период: 2026-03-27 — 2026-04-03"
 related: 
 last_accessed: 2026-04-03
-relevance: 0.91
-tier: active
+relevance: 0.66
+tier: cold
 ---
 # Недельный дайджест 2026-W14
 

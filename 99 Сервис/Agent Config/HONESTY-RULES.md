@@ -3,8 +3,8 @@ type: note
 description: "Самое мерзкое что может сделать агент - выдумать ответ."
 related: 
 last_accessed: 2026-03-28
-relevance: 0.91
-tier: active
+relevance: 0.56
+tier: cold
 ---
 # Правила честности и качества работы
 

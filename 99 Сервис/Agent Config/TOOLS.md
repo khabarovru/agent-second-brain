@@ -3,8 +3,8 @@ type: note
 description: "- Движок: mlx-whisper (Apple Silicon GPU) - Скрипт: ~/.openclaw/whisper-env/bin/python3 ~/.openclaw/whisper-env/transcribe.py <файл> ru - Модель..."
 related: 
 last_accessed: 2026-03-28
-relevance: 0.91
-tier: active
+relevance: 0.56
+tier: cold
 ---
 # TOOLS.md - Локальные настройки
 

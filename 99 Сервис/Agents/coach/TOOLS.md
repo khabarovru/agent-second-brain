@@ -3,8 +3,8 @@ type: note
 description: "- web_search - методики коучинга, исследования по продуктивности, лучшие практики"
 related: 
 last_accessed: 2026-03-28
-relevance: 0.91
-tier: active
+relevance: 0.56
+tier: cold
 ---
 # TOOLS.md - Инструменты Тренера
 

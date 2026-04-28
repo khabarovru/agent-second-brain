@@ -1,3 +1,9 @@
+---
+type: note
+last_accessed: 2026-04-22
+relevance: 0.94
+tier: active
+---
 # RULES.md - Правила Second Brain
 
 ## 🚨 Главные правила
@@ -28,3 +34,8 @@
 ---
 
 _Обновлено: 2026-04-22_
+
+## Related
+
+- [[rules]]
+- [[2026-04-22]]

@@ -3,8 +3,8 @@ type: note
 description: "Эти кроны нужно создать из самого агента (отправить команды в @khabarovru_obsidian_bot)."
 related: 
 last_accessed: 2026-03-28
-relevance: 0.91
-tier: active
+relevance: 0.56
+tier: cold
 ---
 # Настройка автоматических задач для Second Brain
 

@@ -4,8 +4,8 @@ title: Memory Architecture
 description: "AI agents forget everything between sessions. Common solutions (dump everything into context, vector-search everything) create bloat and noise. Human..."
 related: 
 last_accessed: 2026-02-26
-relevance: 0.91
-tier: active
+relevance: 0.11
+tier: cold
 ---
 # Memory Architecture
 

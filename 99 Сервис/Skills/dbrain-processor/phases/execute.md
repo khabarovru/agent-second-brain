@@ -3,8 +3,8 @@ type: note
 description: "Read capture.json from Phase 1. Create Todoist tasks, save thoughts, update CRM."
 related: 
 last_accessed: 2026-03-19
-relevance: 0.91
-tier: active
+relevance: 0.43
+tier: cold
 ---
 # Phase 2: EXECUTE
 

@@ -4,8 +4,8 @@ tags: [travel, flight, aeroflot]
 source: vk-image
 created: 2026-04-12 10:47
 last_accessed: 2026-04-12
-relevance: 0.91
-tier: active
+relevance: 0.79
+tier: warm
 ---
 
 # Аэрофлот: Москва ↔ Сочи

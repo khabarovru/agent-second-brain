@@ -3,8 +3,8 @@ type: note
 description: "Total items: 133"
 related: 
 last_accessed: 2026-03-19
-relevance: 0.91
-tier: active
+relevance: 0.43
+tier: cold
 ---
 # Repository File Structure
 
@@ -148,6 +148,7 @@ Total items: 133
 
 ## Related
 
+- [[RULES]]
 - [[TODOIST]]
 - [[index]]
 - [[CHANGELOG]]

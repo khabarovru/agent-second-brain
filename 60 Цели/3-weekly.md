@@ -3,8 +3,8 @@ type: weekly
 description: "Week: 15 of 52"
 updated: 2026-04-10
 last_accessed: 2026-04-05
-relevance: 0.91
-tier: active
+relevance: 0.76
+tier: warm
 week: 2026-W15
 ---
 

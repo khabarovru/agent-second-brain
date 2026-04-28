@@ -3,8 +3,8 @@ type: note
 description: "- Структура папок (пустые .gitkeep) - Obsidian конфигурация (.obsidian/) - Служебные скрипты (99 Сервис/Scripts/)"
 related: 
 last_accessed: 2026-03-19
-relevance: 0.91
-tier: active
+relevance: 0.43
+tier: cold
 ---
 # GitHub Setup — Безопасная публикация vault
 

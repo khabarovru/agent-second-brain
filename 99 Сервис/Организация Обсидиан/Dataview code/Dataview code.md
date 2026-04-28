@@ -3,8 +3,8 @@ type: note
 title: Dataview code
 description: "- Dataview code - Детальная статистика привычек - Динамика привычек"
 last_accessed: 2026-03-11
-relevance: 0.91
-tier: active
+relevance: 0.31
+tier: cold
 longform: 
 format: scenes
 workflow: Default Workflow

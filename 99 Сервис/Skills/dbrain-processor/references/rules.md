@@ -3,8 +3,8 @@ type: note
 description: "See [ABOUT.md](ABOUT.md) for user context and preferences."
 related: 
 last_accessed: 2026-03-19
-relevance: 0.91
-tier: active
+relevance: 0.43
+tier: cold
 ---
 # Critical Processing Rules
 
@@ -94,6 +94,7 @@ See [ABOUT.md](ABOUT.md) → Anti-Patterns section.
 
 ## Related
 
+- [[RULES]]
 - [[TODOIST]]
 - [[SYSTEM]]
 - [[2026-04-09]]

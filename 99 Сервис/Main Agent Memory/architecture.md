@@ -2,8 +2,8 @@
 type: note
 description: "- Роль: Главный агент, управляющий другими агентами - Платформа: OpenClaw на [HOST_MACHINE] (Apple Silicon) - Модель: Claude Opus 4.6, подписка Max..."
 last_accessed: 2026-04-06
-relevance: 0.91
-tier: active
+relevance: 0.7
+tier: warm
 ---
 # Архитектура [AGENT_NAME] — самоописание
 
@@ -56,6 +56,7 @@ Diary Check (21:00), Git Auto-Commit (22:00), Cron Cleanup (вс 03:00)
 
 ## Related
 
+- [[RULES]]
 - [[index]]
 - [[SCHEMA]]
 - [[log]]

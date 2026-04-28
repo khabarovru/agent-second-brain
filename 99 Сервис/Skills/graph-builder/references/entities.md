@@ -2,8 +2,8 @@
 type: note
 description: "Patterns for finding entities in text."
 last_accessed: 2026-03-19
-relevance: 0.91
-tier: active
+relevance: 0.43
+tier: cold
 ---
 # Entity Extraction Patterns
 

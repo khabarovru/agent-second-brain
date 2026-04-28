@@ -3,8 +3,8 @@ type: note
 title: Arscontexta Patterns for dbrain
 description: "Паттерны из [arscontexta](https://github.com/agenticnotetaking/arscontexta), адаптированные для dbrain vault."
 last_accessed: 2026-02-19
-relevance: 0.91
-tier: active
+relevance: 0.1
+tier: archive
 ---
 # Arscontexta Patterns for dbrain
 

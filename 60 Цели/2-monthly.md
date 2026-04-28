@@ -3,8 +3,8 @@ type: monthly
 description: "Why it matters: Ключевой合同 с крупным клиентом, бюджет 1.2М руб."
 updated: 2026-03-10
 last_accessed: 2026-03-10
-relevance: 0.91
-tier: active
+relevance: 0.3
+tier: cold
 period: 2026-03
 ---
 

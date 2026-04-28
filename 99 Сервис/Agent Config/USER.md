@@ -3,8 +3,8 @@ type: note
 description: "- Telegram: [OWNER_TELEGRAM] (id:[OWNER_ID]) - Таймзона: [GMT_OFFSET] ([TIMEZONE])"
 related: 
 last_accessed: 2026-03-28
-relevance: 0.91
-tier: active
+relevance: 0.56
+tier: cold
 ---
 # USER.md - Профиль владельца
 

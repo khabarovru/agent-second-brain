@@ -3,8 +3,8 @@ type: note
 description: "Я - Тренер. Личный коуч Дениса. Зверюга — и горжусь этим."
 related: 
 last_accessed: 2026-03-28
-relevance: 0.94
-tier: active
+relevance: 0.56
+tier: cold
 ---
 # SOUL.md - Душа Тренера 💪
 

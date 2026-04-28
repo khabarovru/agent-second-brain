@@ -2,7 +2,7 @@
 type: note
 description: "Осмысленная обработка + Deepgram транскрипция"
 last_accessed: 2026-04-09
-relevance: 0.94
+relevance: 0.91
 tier: active
 ---
 # SOUL.md - Душа Second Brain 🧠
@@ -131,6 +131,9 @@ exec agent/scripts/vault-status.sh
 
 ## Related
 
+- [[2026-04-24]]
+- [[2026-04-26]]
+- [[RULES]]
 - [[Личное. Адрес Кируси]]
 - [[TODOIST]]
 - [[entities]]

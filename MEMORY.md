@@ -1,6 +1,12 @@
+---
+type: note
+last_accessed: 2026-04-25
+relevance: 0.98
+tier: active
+---
 # MEMORY.md — Память Second Brain Denis Khabarov
 
-> Инвентаризация от 2026-04-25. Факты из USER.md, SOUL.md, SOUL.md, архитектуры.
+> Инвентаризация от 2026-04-25. Обновлено 2026-04-26 (trimmed).
 
 ---
 
@@ -29,22 +35,9 @@
 ## 💡 Интересы и проекты
 
 - AI агенты и автоматизация
-- Obsidian vault для knowledge management
+- Obsidian vault, Syncthing
 - Python боты (d-brain-bot)
-- Second Brain система
 - [[TODOIST]] — каждая задача сразу в Todoist
-
----
-
-## 📮 Каналы ввода
-
-| Способ | VK | Telegram |
-|--------|-----|----------|
-| Голосовые | ✅ | ✅ |
-| Текст | ✅ | ✅ |
-| Пересланные | ✅ | ✅ |
-
-Голосовые → Deepgram API (nova-2, русский)
 
 ---
 
@@ -68,53 +61,23 @@
 
 ---
 
-## 📝 Формат записей
-
-```yaml
----
-created: YYYY-MM-DD HH:MM
-type: [task|idea|note|knowledge]
-tags: [tag1, tag2]
-source: [vk-text|vk-voice|telegram-text|telegram-voice]
-priority: 1-4  # только для task
-related: [["связанная заметка"]]
----
-```
-
----
-
-## 🗂️ Структура vault
-
-```
-vault/
-├── 00 Входящие/       # Ideas/Tasks/Notes
-├── 10 Заметки/        # General
-├── 20 Ежедневник/     # Daily Notes
-├── 50 Задачи/         # Active
-├── 60 Проекты/
-├── 90 Карты знаний/   # Knowledge Base
-└── reports/           # weekly, etc
-```
-
----
-
-## 🔑 Принятые решения
-
-- IDENTITY.md не заполнена (шаблон)
-- HEARTBEAT.md пустой (мониторинг отключен)
-- Команда "📊 Статус" → `agent/scripts/vault-status.sh`
-- Голосовая транскрипция через Deepgram (не Whisper)
-
----
-
 ## 📅 Последние события
 
 | Дата | Событие |
 |------|---------|
+| 2026-04-26 | MEMORY.md trimmed (<3000 chars) |
 | 2026-04-25 | Инвентаризация памяти, создание MEMORY.md |
-| 2026-04-09 | Последнее обновление USER.md |
-| 2026-04-08 | Последнее обновление SOUL.md |
 
----
+_Обновляется автомatically при инвентаризациях_
 
-_Обновляется автоматически при инвентаризациях_
+## Related
+
+- [[2026-03-28]]
+- [[goals]]
+- [[issues]]
+- [[Scripts]]
+- [[устройства]]
+- [[Все]]
+- [[entities]]
+- [[2026-04-26]]
+- [[todoist]]

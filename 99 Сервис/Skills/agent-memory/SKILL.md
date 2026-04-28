@@ -3,8 +3,8 @@ type: note
 description: "type: note description: >- last_accessed: 2026-02-26"
 related: 
 last_accessed: 2026-03-19
-relevance: 0.91
-tier: active
+relevance: 0.43
+tier: cold
 ---
 
 type: note

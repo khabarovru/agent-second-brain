@@ -3,8 +3,8 @@ type: note
 description: "- Видение на 3 года - Цели 2025 - Цели 2026"
 tags: [moc, goals]
 last_accessed: 2026-03-11
-relevance: 0.91
-tier: active
+relevance: 0.31
+tier: cold
 ---
 
 # Цели

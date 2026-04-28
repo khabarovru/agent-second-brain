@@ -3,8 +3,8 @@ type: yearly
 description: "«Система» — построение надежных процессов и автоматизации."
 updated: 2026-03-10
 last_accessed: 2026-03-10
-relevance: 0.91
-tier: active
+relevance: 0.3
+tier: cold
 period: 2026
 ---
 

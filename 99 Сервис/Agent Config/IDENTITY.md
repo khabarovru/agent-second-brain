@@ -3,8 +3,8 @@ type: note
 description: "- Name: Краб - Creature: Краб — боковой ход, цепкие клешни, панцирь. Ходит не по прямой, но всегда достигает цели. - Vibe: Цепкий, практичный..."
 related: 
 last_accessed: 2026-03-28
-relevance: 0.91
-tier: active
+relevance: 0.56
+tier: cold
 ---
 # IDENTITY.md - Who Am I?
 

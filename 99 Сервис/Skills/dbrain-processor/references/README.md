@@ -2,8 +2,8 @@
 type: note
 description: "dbrain-processor references — инструкции для обработки входящих"
 last_accessed: 2026-04-09
-relevance: 0.91
-tier: active
+relevance: 0.74
+tier: warm
 ---
 
 # dbrain-processor References

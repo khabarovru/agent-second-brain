@@ -3,8 +3,8 @@ type: note
 description: "read memory/handoff.md Там: что обсуждали, что решили, что осталось."
 related: 
 last_accessed: 2026-03-28
-relevance: 0.91
-tier: active
+relevance: 0.56
+tier: cold
 ---
 # BOOTSTRAP.md - Инструкция после пробуждения
 

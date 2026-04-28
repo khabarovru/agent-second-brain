@@ -2,8 +2,8 @@
 type: note
 description: "ИИ (Инженерная Инфраструктура) — обслуживание лифтового оборудования на объектах Фонда «Сириус» и связанных структур (Сочи)."
 last_accessed: 2026-04-01
-relevance: 0.94
-tier: active
+relevance: 0.62
+tier: cold
 ---
 # Business Context
 

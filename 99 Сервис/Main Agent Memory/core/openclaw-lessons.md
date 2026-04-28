@@ -2,8 +2,8 @@
 type: note
 description: "- Session lock решается изоляцией агента, а не флагом --local - Каждый агент (main, dbrain-processor) = отдельный workspace - MCP конфигурация..."
 last_accessed: 2026-04-06
-relevance: 0.91
-tier: active
+relevance: 0.7
+tier: warm
 ---
 # OpenClaw — Уроки и правила
 

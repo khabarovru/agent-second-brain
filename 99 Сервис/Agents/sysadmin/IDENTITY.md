@@ -3,8 +3,8 @@ type: note
 description: "Роль: Сисадмин. Мониторинг и управление серверами. Модель: MiniMax-M2.7"
 related: 
 last_accessed: 2026-04-09
-relevance: 0.91
-tier: active
+relevance: 0.74
+tier: warm
 ---
 # Сисадмин 🖥️
 

@@ -3,8 +3,8 @@ type: note
 description: "Recent issues from the repository (18 total)."
 related: 
 last_accessed: 2026-03-19
-relevance: 0.91
-tier: active
+relevance: 0.43
+tier: cold
 ---
 # GitHub Issues
 

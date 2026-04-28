@@ -2,8 +2,8 @@
 type: note
 description: "Map of Content: Projects, 1 entries"
 last_accessed: 2026-04-05
-relevance: 0.91
-tier: active
+relevance: 0.69
+tier: warm
 ---
 # MOC - Projects
 

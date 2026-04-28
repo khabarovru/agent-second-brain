@@ -2,8 +2,8 @@
 type: weekly-summary
 description: "Weekly summary for 2026-W12"
 last_accessed: 2026-03-19
-relevance: 0.91
-tier: active
+relevance: 0.43
+tier: cold
 date: 2026-03-19
 week: 2026-W12
 ---

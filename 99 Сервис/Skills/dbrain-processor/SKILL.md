@@ -2,8 +2,8 @@
 type: note
 description: Обработка ежедневных голосовых и текстовых записей из Telegram. Классифицирует контент, создаёт задачи в Todoist, сохраняет мысли в Obsidian, генерирует HTML-отчёт. Интегрирован с бизнес-контекстом (объекты, подрядчики, CRM).
 last_accessed: 2026-04-01
-relevance: 0.91
-tier: active
+relevance: 0.62
+tier: cold
 name: dbrain-processor
 depends_on: [graph-builder, todoist-ai, agent-memory, vault-health]
 ---

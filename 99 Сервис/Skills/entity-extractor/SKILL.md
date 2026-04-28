@@ -2,8 +2,8 @@
 type: note
 description: "Извлечение сущностей (люди, объекты, организации) из текста и поиск связанных записей в vault. Использует aliases.json для распознавания."
 last_accessed: 2026-04-08
-relevance: 0.91
-tier: active
+relevance: 0.73
+tier: warm
 name: entity-extractor
 ---
 

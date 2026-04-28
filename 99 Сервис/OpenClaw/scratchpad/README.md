@@ -2,8 +2,8 @@
 type: note
 description: "Папка для обмена данными между субагентами без запросов на подтверждение."
 last_accessed: 2026-04-05
-relevance: 0.91
-tier: active
+relevance: 0.69
+tier: warm
 ---
 # Scratchpad — Общий буфер агентов
 

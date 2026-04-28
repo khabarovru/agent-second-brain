@@ -2,8 +2,8 @@
 type: note
 description: "Файл: ce6f3eb2-307f-49e5-8bba-f8756730caac.jsonl"
 last_accessed: 2026-04-06
-relevance: 0.91
-tier: active
+relevance: 0.7
+tier: warm
 ---
 # Handoff - автоматический (2026-03-28_22:07)
 ## Причина: перезапуск gateway

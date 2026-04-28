@@ -3,8 +3,8 @@ type: note
 description: "Read daily entries, classify them, and output structured JSON."
 related: 
 last_accessed: 2026-03-19
-relevance: 0.91
-tier: active
+relevance: 0.43
+tier: cold
 ---
 # Phase 1: CAPTURE
 
@@ -107,6 +107,7 @@ Test: "Since title, ..." should read naturally.
 
 ## Related
 
+- [[RULES]]
 - [[TODOIST]]
 - [[1-yearly-2026]]
 - [[classification]]

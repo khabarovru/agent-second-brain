@@ -2,8 +2,8 @@
 type: reference
 description: "Entry Classification — домены, приоритеты, маршрутизация"
 last_accessed: 2026-04-09
-relevance: 0.91
-tier: active
+relevance: 0.74
+tier: warm
 ---
 
 # Entry Classification — классификация входящих записей

@@ -2,8 +2,8 @@
 type: note
 description: "Build connections between notes to create a knowledge graph."
 last_accessed: 2026-03-19
-relevance: 0.91
-tier: active
+relevance: 0.43
+tier: cold
 ---
 # Wiki-Links Building
 

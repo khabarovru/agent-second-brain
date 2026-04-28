@@ -3,8 +3,8 @@ type: monthly
 description: "Приоритеты: операция перегородка + отпуск"
 updated: 2026-04-10
 last_accessed: 2026-04-10
-relevance: 0.94
-tier: active
+relevance: 0.76
+tier: warm
 period: 2026-04-05
 ---
 

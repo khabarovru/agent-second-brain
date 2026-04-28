@@ -2,8 +2,8 @@
 type: note
 description: "Формат: ситуация → что пошло не так → паттерн → счётчик повторений Если счётчик ≥ 3 → создать правило в lessons-learned.md"
 last_accessed: 2026-04-06
-relevance: 0.91
-tier: active
+relevance: 0.7
+tier: warm
 ---
 # Паттерны самообучения
 
@@ -34,6 +34,10 @@ tier: active
 
 ## Related
 
+- [[TODOIST]]
+- [[2026-04-26]]
+- [[Все]]
+- [[todoist]]
 - [[кампус]]
 - [[MEMORY]]
 - [[Кампус.ФТ]]

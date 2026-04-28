@@ -4,8 +4,8 @@ title: Search Protocols
 description: "Before searching, classify the task:"
 related: 
 last_accessed: 2026-02-26
-relevance: 0.91
-tier: active
+relevance: 0.11
+tier: cold
 ---
 # Search Protocols
 

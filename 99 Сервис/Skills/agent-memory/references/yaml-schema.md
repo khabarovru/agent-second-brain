@@ -4,8 +4,8 @@ title: YAML Frontmatter Schema
 description: "Every card MUST have this structure. Fields marked (auto) are managed by memory-engine.py. Fields marked (required) must be written by the agent when..."
 related: 
 last_accessed: 2026-02-26
-relevance: 0.91
-tier: active
+relevance: 0.11
+tier: cold
 ---
 # YAML Frontmatter Schema
 
@@ -192,6 +192,7 @@ When `memory-engine.py init` encounters a file without `type`, it checks the fil
 
 ## Related
 
+- [[RULES]]
 - [[SCHEMA]]
 - [[log]]
 - [[frontmatter]]

@@ -2,8 +2,8 @@
 type: note
 description: "- IDENTITY.md, SOUL.md, USER.md, AGENTS.md, MEMORY.md - TOOLS.md, HEARTBEAT.md, BOOTSTRAP.md - SECURITY-RULES.md, HONESTY-RULES.md"
 last_accessed: 2026-04-06
-relevance: 0.91
-tier: active
+relevance: 0.7
+tier: warm
 ---
 # DO_NOT_DELETE.md - Защита от удаления
 
@@ -44,6 +44,7 @@ tier: active
 
 ## Related
 
+- [[RULES]]
 - [[log]]
 - [[HEARTBEAT]]
 - [[projects-log]]

@@ -3,8 +3,8 @@ type: yearly
 description: "<!-- One word or phrase that defines this year --> <!-- Example: \"Foundation\", \"Growth\", \"Balance\" -->"
 updated: YYYY-MM-DD
 last_accessed: 2026-03-07
-relevance: 0.91
-tier: active
+relevance: 0.25
+tier: cold
 period: YYYY
 ---
 

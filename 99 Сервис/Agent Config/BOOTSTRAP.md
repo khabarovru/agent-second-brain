@@ -3,8 +3,8 @@ type: note
 description: "1. Прочитай memory/handoff.md - там тема, решения, TODO 2. Прочитай сегодняшний дневник memory/daily/YYYY-MM-DD.md 3. Если handoff пустой - посмотри..."
 related: 
 last_accessed: 2026-03-28
-relevance: 0.91
-tier: active
+relevance: 0.56
+tier: cold
 ---
 # Инструкция при пробуждении
 

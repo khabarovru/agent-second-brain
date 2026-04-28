@@ -3,8 +3,8 @@ type: note
 description: "Если получил сообщение \"📊 Статус\":"
 related: 
 last_accessed: 2026-03-28
-relevance: 0.91
-tier: active
+relevance: 0.56
+tier: cold
 ---
 # SOUL.md - Душа Second Brain 🧠
 

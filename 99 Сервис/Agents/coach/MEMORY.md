@@ -2,8 +2,8 @@
 type: note
 description: "Long-term memory and key decisions"
 last_accessed: 2026-03-28
-relevance: 0.91
-tier: active
+relevance: 0.56
+tier: cold
 ---
 # MEMORY.md - Тренер 💪
 

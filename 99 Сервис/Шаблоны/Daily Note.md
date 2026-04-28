@@ -2,7 +2,7 @@
 type: daily
 description: "- — кг"
 last_accessed: {{date}}
-relevance: 0.91
+relevance: 0.9
 tier: active
 ---
 # {{date}}
